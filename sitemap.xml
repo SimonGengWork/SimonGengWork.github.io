@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://gengsinan.com/2017/08/22/test/</loc>
+    <loc>http://gengsinan.com/categories/index.html</loc>
     
-    <lastmod>2017-08-22T09:31:41.020Z</lastmod>
+    <lastmod>2017-08-22T09:35:29.070Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://gengsinan.com/tags/index.html</loc>
     
-    <lastmod>2017-08-22T09:16:40.291Z</lastmod>
+    <lastmod>2017-08-22T09:34:47.928Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://gengsinan.com/categories/index.html</loc>
+    <loc>http://gengsinan.com/2017/08/22/hello-world/</loc>
     
-    <lastmod>2017-08-22T09:16:17.311Z</lastmod>
+    <lastmod>2017-08-22T09:34:10.782Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://gengsinan.com/2017/08/22/test/</loc>
+    
+    <lastmod>2017-08-22T09:31:41.020Z</lastmod>
     
   </url>
   
