@@ -1851,6 +1851,9 @@ pre .javascript .function {
   max-width: 96px;
   height: auto;
   border: 2px solid #333;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
 }
 .site-author-name {
   margin: 5px 0 0;
@@ -1935,7 +1938,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #feff18;
+  background: #a662ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2694,6 +2697,34 @@ pre .javascript .function {
     transform: scale(1);
   }
 }
+author-all-page .author-all-title {
+  text-align: center;
+}
+author-all-page .author-all {
+  margin-top: 20px;
+}
+author-all-page .author-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+author-all-page .author-list-item {
+  margin: 5px 10px;
+}
+author-all-page .author-list-count {
+  color: #bbb;
+}
+author-all-page .author-list-count:before {
+  display: inline;
+  content: " (";
+}
+author-all-page .author-list-count:after {
+  display: inline;
+  content: ") ";
+}
+author-all-page .author-list-child {
+  padding-left: 10px;
+}
 .page-post-detail .sidebar-toggle-line {
   background: #87daff;
 }
@@ -2990,6 +3021,19 @@ hr {
 .page-post-detail .post-meta {
   margin-bottom: 60px;
 }
+.page-home .post {
+  margin-top: 2em;
+  padding: 1em;
+  border: solid 1px #d3d3d3;
+}
+.page-home .post-more-link {
+  display: none;
+}
+@media (max-width: 767px) {
+  .page-home .post-tags {
+    display: none;
+  }
+}
 .pagination {
   margin: 120px 0 0;
   text-align: left;
@@ -3015,4 +3059,11 @@ hr {
     width: auto;
     text-align: center;
   }
+}
+.posts-expand .post-body ul li.task-list-item {
+  list-style: none;
+}
+.posts-expand .post-body ul li.task-list-item .task-list-item-checkbox {
+  margin: 0 0.2em 0.25em -1.6em;
+  vertical-align: middle;
 }
