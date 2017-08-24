@@ -1751,13 +1751,6 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
-.post-copyright {
-  margin: 2em 0 0;
-  padding: 0.5em 1em;
-  border-left: 3px solid #ff1700;
-  background-color: #f9f9f9;
-  list-style: none;
-}
 .rtl.post-body p,
 .rtl.post-body a,
 .rtl.post-body h1,
@@ -1938,7 +1931,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a662ff;
+  background: #0b7ec3;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2697,32 +2690,32 @@ pre .javascript .function {
     transform: scale(1);
   }
 }
-author-all-page .author-all-title {
+.author-all-page .author-all-title {
   text-align: center;
 }
-author-all-page .author-all {
+.author-all-page .author-all {
   margin-top: 20px;
 }
-author-all-page .author-list {
+.author-all-page .author-list {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-author-all-page .author-list-item {
+.author-all-page .author-list-item {
   margin: 5px 10px;
 }
-author-all-page .author-list-count {
+.author-all-page .author-list-count {
   color: #bbb;
 }
-author-all-page .author-list-count:before {
+.author-all-page .author-list-count:before {
   display: inline;
   content: " (";
 }
-author-all-page .author-list-count:after {
+.author-all-page .author-list-count:after {
   display: inline;
   content: ") ";
 }
-author-all-page .author-list-child {
+.author-all-page .author-list-child {
   padding-left: 10px;
 }
 .page-post-detail .sidebar-toggle-line {
