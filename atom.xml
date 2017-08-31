@@ -46,7 +46,7 @@
     <link href="http://gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/"/>
     <id>http://gengsinan.com/2017/08/31/科学上网之Shadowsocks-Chrome/</id>
     <published>2017-08-31T03:49:48.000Z</published>
-    <updated>2017-08-31T07:04:29.711Z</updated>
+    <updated>2017-08-31T21:28:29.082Z</updated>
     
     <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a><center>摘要</center></h3><ul>
 <li><h4 id="本篇文章解决"><a href="#本篇文章解决" class="headerlink" title="本篇文章解决"></a>本篇文章解决</h4></li>
@@ -87,7 +87,7 @@
 <p>Download<br>ShadowsocksX-NG-版本号-zip</p>
 </blockquote>
 <p>点击下载<br>然后解压文件，找到<code>__MACOSX</code>文件夹中的<code>ShadowsocksX-NG.app</code>，拉到你的Mac的<code>Application</code>中，最后你将会在Mac的 <code>Launchpad</code>中找到</p>
-<p><a href="#">SHadowsocks Linux下载地址</a><br>Linux的大佬，想必可以忽视这篇文章吧</p>
+<p><a href="#">Shadowsocks Linux下载地址</a><br>Linux的大佬，想必可以忽视这篇文章吧</p>
 <hr>
 <h4 id="Shadowsocks-配置（Windows为例）"><a href="#Shadowsocks-配置（Windows为例）" class="headerlink" title="Shadowsocks 配置（Windows为例）"></a>Shadowsocks 配置（Windows为例）</h4><p>提供一个注册就可以免费试用50M流量的服务商（注册不限次数）<br><a href="http://su.mljjlt.cn/" target="_blank" rel="external">速飞跃</a><br>点击</p>
 <blockquote>
