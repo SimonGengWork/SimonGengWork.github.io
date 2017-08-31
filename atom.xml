@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-08-31T03:53:00.326Z</updated>
+  <updated>2017-08-31T04:27:13.015Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,9 +20,34 @@
     <link href="http://gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/"/>
     <id>http://gengsinan.com/2017/08/31/科学上网之Shadowsocks-Chrome/</id>
     <published>2017-08-31T03:49:48.000Z</published>
-    <updated>2017-08-31T03:53:00.326Z</updated>
+    <updated>2017-08-31T04:27:13.015Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a><center>摘要</center></h2><ul>
+<li><h4 id="本篇文章解决"><a href="#本篇文章解决" class="headerlink" title="本篇文章解决"></a>本篇文章解决</h4></li>
+</ul>
+<blockquote>
+<p><strong>Shadowsocks是什么？(Shadowsocks下文会简称SS)</strong></p>
+</blockquote>
+<hr>
+<blockquote>
+<p><strong>SS+Chrome访问”Google”</strong></p>
+</blockquote>
+<hr>
+<blockquote>
+<p><strong>如何访问不存在的网站</strong></p>
+</blockquote>
+<!-- mroe -->
+<hr>
+<h4 id="Shadowsocks-是什么？-Shadowsocks下文会简称SS"><a href="#Shadowsocks-是什么？-Shadowsocks下文会简称SS" class="headerlink" title="Shadowsocks 是什么？(Shadowsocks下文会简称SS)"></a>Shadowsocks 是什么？(Shadowsocks下文会简称SS)</h4><p><a href="https://zh.wikipedia.org/wiki/Shadowsocks" target="_blank" rel="external">摘自维基百科</a></p>
+<blockquote>
+<p>shadowsocks是一种基于Socks5代理方式的网络数据加密传输包，并采用Apache许可证、GPL、MIT许可证等多种自由软件许可协议开放源代码。shadowsocks分为服务器端和客户端，在使用之前，需要先将服务器端部署到服务器上面，然后通过客户端连接并创建本地代理。目前包使用Python、C、C++、C#、Go语言等编程语言开发。</p>
+</blockquote>
+]]></content>
     
     <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;&lt;center&gt;摘要&lt;/center&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;h4 id=&quot;本篇文章解决&quot;&gt;&lt;a href=&quot;#本篇文章解决&quot; class=&quot;header
     
     </summary>
     
