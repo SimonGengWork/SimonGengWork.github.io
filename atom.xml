@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-08-31T06:44:41.735Z</updated>
+  <updated>2017-08-31T06:48:04.098Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/"/>
     <id>http://gengsinan.com/2017/08/31/科学上网之Shadowsocks-Chrome/</id>
     <published>2017-08-31T03:49:48.000Z</published>
-    <updated>2017-08-31T06:44:41.735Z</updated>
+    <updated>2017-08-31T06:48:04.098Z</updated>
     
     <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a><center>摘要</center></h3><ul>
 <li><h4 id="本篇文章解决"><a href="#本篇文章解决" class="headerlink" title="本篇文章解决"></a>本篇文章解决</h4></li>
@@ -55,7 +55,7 @@
 <p>Download<br>Shadowsocks-版本号-.zip</p>
 </blockquote>
 <p>点击下载(随便下载到哪里都可以：桌面、C盘、D盘、E盘…….)<br>新建一个叫<code>Shadowsocks</code>的文件夹(名字可以随便起)，把下载好的<code>Shadowsocks.exe</code>放进去</p>
-<p><code>Shadowsocks.exe</code>是不用安装的，点击即可看到其界面</p>
+<p><code>Shadowsocks.exe</code>是不用安装的，双击后即可看到其界面</p>
 <p><a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases/" target="_blank" rel="external">Shadowsocks MacOs下载地址</a><br>找到</p>
 <blockquote>
 <p>Download<br>ShadowsocksX-NG-版本号-zip</p>
@@ -90,7 +90,7 @@
 </ol>
 <p><code>PAC模式</code>PAC配置文件中的IP、网站地址通过代理服务器流量，未配置的走本地流量<br><code>全局模式</code>所有IP、网站地址均通过代理服务器流量</p>
 <hr>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>如果想长时间且稳定的使用代理服务器（VPS），那么天下没有免费的午餐，且免费的总是不长久的，这里UP推荐性价比最高的（需要开启你的小飞机才可以浏览）<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>，一年不到20$（不到140元RMB）的费用，就可以享受到浏览Youtube 4K视频畅通无阻的服务。关于<strong>搬瓦工</strong>,度娘上的中文教程也是非常多，如果有需要，UP也会写一遍关于<code>如何购买、使用搬瓦工搭建VPS+SS+Chrome科学上网</code></p>
+<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>如果想长时间且稳定的使用代理服务器（VPS）用来翻墙，那么天下没有免费的午餐，且免费的总是不长久的，这里UP推荐性价比最高的（需要开启你的小飞机才可以浏览）<strong><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a></strong>，一年不到20$（不到140元RMB）的费用，就可以享受到浏览Youtube 4K视频畅通无阻的服务。关于<strong>搬瓦工</strong>,度娘上的中文教程也是非常多，如果有需要，UP也会写一遍关于<code>如何购买、使用搬瓦工搭建VPS+SS+Chrome科学上网</code></p>
 ]]></content>
     
     <summary type="html">
