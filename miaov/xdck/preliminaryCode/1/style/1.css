@@ -1,0 +1,36 @@
+body {
+	background: #E7E7E7;
+}
+
+#backGround {
+	width: 334px;
+	height: 392px;
+
+//	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+
+	background: url(../img/Background.jpg) no-repeat;
+}
+
+#ico1 {
+	width: 334px;
+	height: 280px;
+
+	background: url(../img/sun.jpg) no-repeat 260px 244px;
+}
+
+#ico2 {
+	width: 334px;
+	height: 40px;
+
+	background: url(../img/Cloud.jpg) no-repeat 260px 4px;
+}
+
+#ico3 {
+	with: 334px;
+	height: 50px;
+
+	background: url(../img/Cloud.jpg) no-repeat 260px 4px;
+}

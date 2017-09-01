@@ -1,0 +1,89 @@
+body {
+	background: #DCD6DC;
+}
+
+#backGround {
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+
+	width: 344px;
+	height: 389px;
+
+	background: url(../img/Background.jpg) repeat-y;
+}
+
+#content {
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 50px;
+
+	width: 280px;
+	height: 300px;
+
+	background: white;
+}
+
+#row1 ,
+#row2 ,
+#row3 ,
+#row4 ,
+#row5 ,
+#row6 {
+	width: 280px;
+	height: 49px;
+}
+
+#row1 {
+	background: url(../img/1.jpg) no-repeat 10px 16px;
+	border-bottom: solid 1px gray;
+}
+
+#row2 {
+	background: url(../img/2.jpg) no-repeat 10px 16px;
+	border-bottom: solid 1px gray;
+}
+
+#row3 {
+	background: url(../img/3.jpg) no-repeat 8px 16px;
+	border-bottom: solid 1px gray;
+	border-left: solid 2px orange;
+}
+
+#row4 {
+	background: url(../img/4.jpg) no-repeat 10px 16px;
+	border-bottom: solid 1px gray;
+}
+
+#row5 {
+	background: url(../img/5.jpg) no-repeat 10px 16px;
+	border-bottom: solid 1px gray;
+}
+
+#row6 {
+	background: url(../img/6.jpg) no-repeat 10px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+body {
+	background: #DCD6DC;
+}
+
+#backGround {
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+
+	width: 317px;
+	height: 235px;
+
+	background: #191d20;
+}
+
+#content {
+	position: fixed;
+	margin: auto;
+	border: solid 2px #6bcdf2;
+	left: 0;
+	right: 0;
+	top: 22px;
+
+	width: 280px;
+	height: 200px;
+}
+
+#row1 ,
+#row2 ,
+#row3 ,
+#row4 ,
+#row5 ,
+#row6 {
+	width: 280px;
+	height: 40px;
+}
+
+#row1 {
+	width: 50px;
+
+	float: left;
+
+	background: url(../img/1.jpg) no-repeat 10px 6px;
+}
+
+#row2 {
+	width: 50px;
+
+	float: right;
+
+	background: url(../img/2.jpg) no-repeat 10px 6px;
+}
+
+#row3 {
+	float: left;
+
+	height: 38px;
+
+	border-top: solid 2px #6bcdf2;
+
+	background: url(../img/3.jpg) no-repeat 10px 6px;
+}
+
+#row4 {
+	float: left;
+
+	background: url(../img/4.jpg) no-repeat 10px 6px #6bcdf2;
+}
+
+#row5 {
+	float: left;
+
+	background: url(../img/5.jpg) no-repeat 10px 6px;
+}
+
+#row6 {
+	float: left;
+
+	background: url(../img/6.jpg) no-repeat 10px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
