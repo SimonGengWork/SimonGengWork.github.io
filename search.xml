@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[CSS+CSS3 常用样式+复合样式 和 一些注意事项]]></title>
+    <url>%2F2017%2F09%2F02%2FCSS-CSS3-%E5%B8%B8%E7%94%A8%E6%A0%B7%E5%BC%8F-%E5%A4%8D%E5%90%88%E6%A0%B7%E5%BC%8F-%E5%92%8C-%E4%B8%80%E4%BA%9B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9%2F</url>
+    <content type="text"><![CDATA[摘要本篇文章记录了一些简单的CSS+CSS3 常用样式+复合样式 CSS+CSS3 常用样式+复合样式background123456789101112131415161718background-color: #000; //背景颜色 //颜色英文关键字、rgb、十六进制background-image: url(img/1.jpg); //背景图 背景图默认铺满整个容器大小background-repeat: no-repeat; //背景图是否重复,no-repeat 不重复 //repeat-x x轴重复 //repeat-y y轴重复repeat //x/y都重复background-position: x y; //背景图位置 //具体数值 //left right center //top bottom center //当第二个属性值没有填写，默认居中background-attachmen: scroll; //背景图是否滚动 //fixed 固定在浏览器可视区 //scroll 跟随滚动条滚动background: red url(img/1.jpg) no-repeat center top scroll; //background 复合样式，不分属性书写顺序的 //内容是会撑开容器宽高，背景不会占用容器宽高 border123456789101112131415161718192021222324252627border: 1px solid red; //边框组成 //1、边框的粗细 //2、边框的样式 //3、边框的颜色border-right: 5px dashed black; //边框的方向 //top right bottom left //border-top //border-right //border-bottom //border-left //border-top //border-top-width //border-top-style //border-top-color //border-right //border-right-width //border-right-style //border-right-color //border-bottom //border-bottom-width //border-bottom-style //border-bottom-color //border-left //border-left-width //border-left-style //border-left-color //边框的形状：非矩形（梯形或三角形） padding123456789101112131415161718padding: 100px; //内填充 //注意：设置padding后会撑大容器的大小 //padding的四个方向 //top right bottom left //paading复合写法 : top right bottom left //只有一个属性值时: 4个方向都是同一个值 //设置两个属性值时： //第一个属性值设置的是上下两个方向， //第二个属性值设置的是左右两个方向。 //设置三个属性值时： //第一个属性值设置的是上边一个方向， //第二个属性值设置的是左右两个方向， //第三个属性值设置的是下边一个方向。 //设置四个属性值时： //第一个属性值设置的是上边一个方向， //第二个属性值设置的是右一个方向， //第三个属性值设置的是下边一个方向， //第四个属性值设置的是左边一个方向。 margin1234567891011121314151617181920212223242526272829margin: 100px; //margin 外边距 //标签与标签之间的间隔（距离） //margin复合写法 : top right bottom left //只有一个属性值时: 4个方向都是同一个值 //设置两个属性值时： //第一个属性值设置的是上下两个方向 //第二个属性值设置的是左右两个方向 //设置三个属性值时： //第一个属性值设置的是上边一个方向， //第二个属性值设置的是左右两个方向， //第三个属性值设置的是下边一个方向。 //设置四个属性值时： //第一个属性值设置的是上边一个方向， //第二个属性值设置的是右一个方向， //第三个属性值设置的是下边一个方向， //第四个属性值设置的是左边一个方向。 //margin的问题 //1、margin-top传递 //解决方法： //为父级添加一个border； //位父级添加一个新的属overflow:hidden; //不适用margin，在父级中使用padding-top //注意：**子债父偿**现象只会发生在对第一个子级使用margin-top时发生 //2、margin上下叠压 //解决技巧： //在父级元素中添加 //display: warp; //flew-warp: warp; //flex弹性魔盒可以完美解决问题 盒子模型123border + padding + width/height //盒模型大小border-left-width + padding-left + width + padding-right + border-right-width //盒模型的宽度border-top-width + padding-top + height + padding-bottom + border-bottom-width //盒模型的高度 font123456789101112131415161718font-weight: normal; //font-weight 文字加粗 //bold 加粗 //normal 正常font-style: normal; //font-style 文字倾斜 //italic 斜体 //normal 正常font-size: 48px; //文字大小font-family: &quot;楷体&quot;;line-height: 30px; //当行高的值与容器高度一致时，文字会垂直居中显示 //多行文字测量行高的方法： //1、确认文字大小 //2、确认两行文字之间的空隙大小 //3、空隙大小除以2，得出来的值就是每行文字的上下的空隙大小 //3.1 当行高为奇数时，那么文字的上方要比下方少一个像素 //3.2 当行高为偶数是，那么文字上下空隙值一致 //4、通过辅助项测量多行文字的行高font：font-style | font-weight | font-size/line-height | font-family； //!!!font复合样式需要注意书写顺序 color1color: red; //文字颜色 text-align1234text-align: left; //文本对齐（显示）方式 //left 默认值 //right //center text-decoration123text-decoration: none; //文本修饰 //underline 下划线 //none letter-spacing1letter-spacing: 10px //字母间距 word-spacing1word-spacing: 20px; //单词间距（以空格为解析单位） white-space123white-space: normal; //white-space 强制不换行 //nowrap 不换行 //normal 正常 字体与空格123456border: 1px solid red;font-size: 12px;font-family: &quot;宋体&quot;; //字体格式不一样时，空格大小也不一样。 //空格的大小：字体格式为宋体时，那么空格大小是当前文字大小的一半。text-indent: 2em; //em 是根据字体大小来进行计算的 //1em = 当前字体大小]]></content>
+      <categories>
+        <category>Front-end Web(前端)</category>
+      </categories>
+      <tags>
+        <tag>前端 CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[前端作业]]></title>
     <url>%2F2017%2F08%2F31%2F%E5%89%8D%E7%AB%AF%E4%BD%9C%E4%B8%9A%2F</url>
-    <content type="text"><![CDATA[摘要本篇文章为我的作业展示区作业来源 妙味课堂 展示区前端初窥 代码入门篇 作业1作业2作业3 HTML5基础 网易产品 HTML5高级&gt;]]></content>
+    <content type="text"><![CDATA[摘要本篇文章为我的作业展示区作业来源 妙味课堂 展示区前端初窥 代码入门篇 作业1作业2作业3 HTML5基础 网易产品 HTML5高级]]></content>
       <categories>
         <category>Front-end Web(前端)</category>
       </categories>
