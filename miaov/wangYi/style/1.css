@@ -1,0 +1,103 @@
+* {
+	font-size: 20px;
+}
+
+body {
+	background: #E0E0E0;
+}
+
+a {
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+#father {
+	margin: auto;
+
+	width: 500px;
+	height: 620px;
+
+	border-radius: 20px;
+	box-shadow: 30px 30px 10px #888888;
+}
+
+#son1 {
+	width: 500px;
+	height: 100px;
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+
+	background: url(../img/icon.png);
+}
+
+#son2 ,
+#son3 ,
+#son4 ,
+#son5 {
+	width: 500px;
+	height: 100px;
+
+	border-bottom: solid 2px white;
+}
+
+#son2 {
+	background: url(../img/icon.png) no-repeat 10px -222px #f4c3cd;
+}
+
+#son3 {
+	background: url(../img/icon.png) no-repeat 12px -350px #f8d7de;
+}
+
+#son4 {
+	background: url(../img/icon.png) no-repeat 12px -494px #fbe7eb;
+}
+
+#son5 {
+	height: 214px;
+
+	border: none;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+	background: url(../img/icon.png) no-repeat 12px -624px #fdf3f5;
+}
+
+#son21 ,
+#son22 ,
+#son31 ,
+#son32 ,
+#son41 ,
+#son42 ,
+#son51 ,
+#son52 ,
+#son53 ,
+#son54 {
+	position: relative;
+	top: 36px;
+	left: 130px;
+}
+
+#son31 ,
+#son41 {
+	top: 20px;
+}
+
+#son4 a {
+	margin-right: 15px;
+}
+
+#son5 a {
+	display:  inline-block;
+	margin-bottom: 14px;
+}
+
+#son51 a ,
+#son52 a {
+	margin-right: 18px;
+}
+
+#son53 a ,
+#son54 a {
+	margin-right: 6px;
+}
