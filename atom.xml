@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-09-01T13:21:53.335Z</updated>
+  <updated>2017-09-02T12:26:17.320Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://gengsinan.com/2017/08/31/%E5%89%8D%E7%AB%AF%E4%BD%9C%E4%B8%9A/"/>
     <id>http://gengsinan.com/2017/08/31/前端作业/</id>
     <published>2017-08-31T07:13:04.000Z</published>
-    <updated>2017-09-01T13:21:53.335Z</updated>
+    <updated>2017-09-02T12:26:17.320Z</updated>
     
     <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a><center>摘要</center></h3><h4 id="本篇文章为我的作业展示区"><a href="#本篇文章为我的作业展示区" class="headerlink" title="本篇文章为我的作业展示区"></a>本篇文章为我的作业展示区</h4><p>作业来源</p>
 <blockquote>
@@ -33,7 +33,10 @@
 </blockquote>
 <hr>
 <h5 id="HTML5基础"><a href="#HTML5基础" class="headerlink" title="HTML5基础"></a>HTML5基础</h5><blockquote>
+<p><a href="https://www.gengsinan.com/miaov/wangYi/" target="_blank" rel="external">网易产品</a></p>
 </blockquote>
+<hr>
+<h5 id="HTML5高级"><a href="#HTML5高级" class="headerlink" title="HTML5高级"></a>HTML5高级</h5><p>&gt;</p>
 ]]></content>
     
     <summary type="html">
