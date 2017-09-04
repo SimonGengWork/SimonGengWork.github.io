@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-09-04T11:06:39.998Z</updated>
+  <updated>2017-09-04T11:47:19.665Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,41 +20,30 @@
     <link href="http://gengsinan.com/2017/09/04/HTML-HTML5-%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE-%E5%92%8C-%E4%B8%80%E4%BA%9B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
     <id>http://gengsinan.com/2017/09/04/HTML-HTML5-常用标签-和-一些注意事项/</id>
     <published>2017-09-04T10:54:07.000Z</published>
-    <updated>2017-09-04T11:06:39.998Z</updated>
+    <updated>2017-09-04T11:47:19.665Z</updated>
     
     <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a><center>摘要</center></h3><p>本篇文章记录了一些简单的HTML+HTML5 常用标签</p>
 <a id="more"></a>
 <hr>
-<h3 id="HTML-HTML5-常用标签"><a href="#HTML-HTML5-常用标签" class="headerlink" title="HTML+HTML5 常用标签"></a>HTML+HTML5 常用标签</h3><h4 id=""><a href="#" class="headerlink" title=""></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></h4><p><a href="#">文字</a>                // 超链接</p>
-<p><style>                             // 伪类 给元素添加特效的效果<br>    a:link {                        // :link  未访问过的链接初始的颜色<br>        color: black;               // :active    鼠标按下时链接的颜色<br>    }                               // :hover    鼠标移入(悬停)<br>                                    // :visited    访问过后的链接颜色<br>    a:hover {<br>        color: red;<br>    }</p>
-<pre><code>a:active {
-    color: plum;
-}
-
-a:visited {
-    color: pink;
-}
-</code></pre><p></style><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">------</div><div class="line"></div><div class="line">#### ```&lt;span&gt;&lt;/span&gt;</div></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;span&gt;&lt;/span&gt;                       // 内联元素 常用语区分文字样式</div></pre></td></tr></table></figure>
+<h3 id="HTML-HTML5-常用标签"><a href="#HTML-HTML5-常用标签" class="headerlink" title="HTML+HTML5 常用标签"></a>HTML+HTML5 常用标签</h3><h4 id="a标签"><a href="#a标签" class="headerlink" title="a标签"></a><code>a</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">&lt;a href=&quot;#&quot;&gt;文字&lt;/a&gt;                // 超链接</div><div class="line">&lt;style&gt;                             // 伪类 给元素添加特效的效果</div><div class="line">    a:link &#123;                        // :link  未访问过的链接初始的颜色</div><div class="line">        color: black;               // :active    鼠标按下时链接的颜色</div><div class="line">    &#125;                               // :hover    鼠标移入(悬停)</div><div class="line">                                    // :visited    访问过后的链接颜色</div><div class="line">    a:hover &#123;</div><div class="line">        color: red;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    a:active &#123;</div><div class="line">        color: plum;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    a:visited &#123;</div><div class="line">        color: pink;</div><div class="line">    &#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
 <hr>
-<h4 id="-1"><a href="#-1" class="headerlink" title=""></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></h4><p><header></header>                  // 页眉 主要用于页面头部的信息,也可以用于板块头部<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">------</div><div class="line"></div><div class="line">#### ```&lt;nav&gt;&lt;/nav&gt;</div></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;nav&gt;&lt;a href=&quot;#&quot;&gt;链接&lt;/a&gt;&lt;a href=&quot;#&quot;&gt;链接&lt;/a&gt;&lt;/nav&gt;     // 导航 包含链接的一个列表</div></pre></td></tr></table></figure>
+<h4 id="span标签"><a href="#span标签" class="headerlink" title="span标签"></a><code>span</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;span&gt;&lt;/span&gt;                       // 内联元素 常用语区分文字样式</div></pre></td></tr></table></figure>
 <hr>
-<h4 id="-2"><a href="#-2" class="headerlink" title=""></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></h4><p><footer></footer>                   // 页脚 页面的底部 或者 板块底部<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">------</div><div class="line"></div><div class="line">#### ```&lt;section&gt;&lt;/section&gt;</div></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;section&gt;&lt;/section&gt;                 // 页面上的版块</div><div class="line">                                    // 用于划分页面上的不同区域,或者划分文章里不同的章节</div></pre></td></tr></table></figure>
+<h4 id="header标签"><a href="#header标签" class="headerlink" title="header标签"></a><code>header</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;header&gt;&lt;/header&gt;                  // 页眉 主要用于页面头部的信息,也可以用于板块头部</div></pre></td></tr></table></figure>
 <hr>
-<h4 id="-3"><a href="#-3" class="headerlink" title=""></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></h4><p><article></article>                 // 用来在页面中表示一套结构完整且独立的内容部分<br>                                    // W3C 释义为 定义文章<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">------</div><div class="line"></div><div class="line">#### ```&lt;aside&gt;&lt;/aside&gt;</div></pre></td></tr></table></figure></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;aside&gt;&lt;/aside&gt;                     // 元素标签可以包含与当前页面或主要内容相关的引用、侧边栏、广告、nav元素组，以及其他类似的有别于主要内容的部分</div></pre></td></tr></table></figure>
+<h4 id="nav标签"><a href="#nav标签" class="headerlink" title="nav标签"></a><code>nav</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;nav&gt;&lt;a href=&quot;#&quot;&gt;链接&lt;/a&gt;&lt;a href=&quot;#&quot;&gt;链接&lt;/a&gt;&lt;/nav&gt;     // 导航 包含链接的一个列表</div></pre></td></tr></table></figure>
 <hr>
-<h4 id="-4"><a href="#-4" class="headerlink" title=""></a><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure></h4><p><time></time>                      // 用来表示时间或日期<br><time>16:57:08</time><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">------</div><div class="line"></div><div class="line">### 自带属性的常用标签</div></pre></td></tr></table></figure></p>
-<p> 标签                   场景         预设属性<br>h1-h6                 // 标题        <strong>、margin</strong></p>
-<p></p><p></p>               // 段落        块状元素<br><strong></strong>     // 强调        粗体<br><em></em>             // 强调        斜体<br><span></span>         // 区分样式<p></p>
-<p><ul></ul>             // 无序列表</p>
-<p><ol></ol>             // 有序列表</p>
-<p><li></li>             // 列表项      padding、list-style</p>
-<p><dl></dl>             // 定义列表    margin</p>
-<p><dt></dt>             // 定义列表标题</p>
-<p><dd></dd>             // 定义列表项  margin<br><mark></mark>         // 标记<br><img src="">         // 图片        border、vertical-alingn、text-decoration、src(绝对路径/相对路径);支持宽高<br>```</p>
+<h4 id="footer标签"><a href="#footer标签" class="headerlink" title="footer标签"></a><code>footer</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;footer&gt;&lt;/footer&gt;                   // 页脚 页面的底部 或者 板块底部</div></pre></td></tr></table></figure>
+<hr>
+<h4 id="section标签"><a href="#section标签" class="headerlink" title="section标签"></a><code>section</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;section&gt;&lt;/section&gt;                 // 页面上的版块</div><div class="line">                                    // 用于划分页面上的不同区域,或者划分文章里不同的章节</div></pre></td></tr></table></figure>
+<hr>
+<h4 id="article标签"><a href="#article标签" class="headerlink" title="article标签"></a><code>article</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;article&gt;&lt;/article&gt;                 // 用来在页面中表示一套结构完整且独立的内容部分</div><div class="line">                                    // W3C 释义为 定义文章</div></pre></td></tr></table></figure>
+<hr>
+<h4 id="aside标签"><a href="#aside标签" class="headerlink" title="aside标签"></a><code>aside</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;aside&gt;&lt;/aside&gt;                     // 元素标签可以包含与当前页面或主要内容相关的引用、侧边栏、广告、nav元素组，以及其他类似的有别于主要内容的部分</div></pre></td></tr></table></figure>
+<hr>
+<h4 id="time标签"><a href="#time标签" class="headerlink" title="time标签"></a><code>time</code>标签</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;time&gt;&lt;/time&gt;                      // 用来表示时间或日期</div><div class="line">&lt;time&gt;16:57:08&lt;/time&gt;</div></pre></td></tr></table></figure>
+<hr>
+<h3 id="自带属性的常用标签"><a href="#自带属性的常用标签" class="headerlink" title="自带属性的常用标签"></a>自带属性的常用标签</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"> 标签                   场景                  预设属性</div><div class="line">h1-h6                 // 标题            &lt;strong&gt;、margin</div><div class="line">&lt;p&gt;&lt;/p&gt;               // 段落                块状元素</div><div class="line">&lt;strong&gt;&lt;/strong&gt;     // 强调                  粗体</div><div class="line">&lt;em&gt;&lt;/em&gt;             // 强调                  斜体</div><div class="line">&lt;span&gt;&lt;/span&gt;         // 区分样式</div><div class="line">&lt;ul&gt;&lt;/ul&gt;             // 无序列表</div><div class="line">&lt;ol&gt;&lt;/ol&gt;             // 有序列表</div><div class="line">&lt;li&gt;&lt;/li&gt;             // 列表项         padding、list-style</div><div class="line">&lt;dl&gt;&lt;/dl&gt;             // 定义列表             margin</div><div class="line">&lt;dt&gt;&lt;/dt&gt;             // 定义列表标题</div><div class="line">&lt;dd&gt;&lt;/dd&gt;             // 定义列表项           margin</div><div class="line">&lt;mark&gt;&lt;/mark&gt;         // 标记</div><div class="line">&lt;img src=&quot;&quot; &gt;         // 图片           border、vertical-alingn、text-decoration、src(绝对路径/相对路径);支持宽高</div></pre></td></tr></table></figure>
 <hr>
 <h3 id="gt-更多标签请前往w3school-tags页面"><a href="#gt-更多标签请前往w3school-tags页面" class="headerlink" title="&gt; 更多标签请前往w3school/tags页面"></a>&gt; 更多标签请前往<a href="http://www.w3school.com.cn/tags/" target="_blank" rel="external">w3school/tags页面</a></h3><hr>
 ]]></content>
@@ -81,7 +70,7 @@ a:visited {
     <link href="http://gengsinan.com/2017/09/02/CSS-CSS3-%E5%B8%B8%E7%94%A8%E6%A0%B7%E5%BC%8F-%E5%A4%8D%E5%90%88%E6%A0%B7%E5%BC%8F-%E5%92%8C-%E4%B8%80%E4%BA%9B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
     <id>http://gengsinan.com/2017/09/02/CSS-CSS3-常用样式-复合样式-和-一些注意事项/</id>
     <published>2017-09-02T14:23:18.000Z</published>
-    <updated>2017-09-04T11:06:03.002Z</updated>
+    <updated>2017-09-04T11:09:09.315Z</updated>
     
     <content type="html"><![CDATA[<h3 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a><center>摘要</center></h3><p>本篇文章记录了一些简单的CSS+CSS3 常用样式+复合样式</p>
 <a id="more"></a>
@@ -144,7 +133,6 @@ a:visited {
 <h5 id="display-inline-显示为内嵌元素，使块状元素属性标签具备内敛元素的特征"><a href="#display-inline-显示为内嵌元素，使块状元素属性标签具备内敛元素的特征" class="headerlink" title="display:inline  显示为内嵌元素，使块状元素属性标签具备内敛元素的特征"></a><code>display:inline</code>  显示为内嵌元素，使块状元素属性标签具备内敛元素的特征</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">inline元素不会独占一行，多个相邻的行内元素会排列在同一行里，</div><div class="line">直到一行排列不下，才会新换一行，其宽度随元素的内容而变化。</div><div class="line">inline元素设置width,height属性无效。</div><div class="line">inline元素的margin和padding属性，</div><div class="line">水平方向的padding-left, padding-right, margin-left, margin-right都产生边距效果；</div><div class="line">但竖直方向的padding-top, padding-bottom, margin-top, margin-bottom不会产生边距效果。</div></pre></td></tr></table></figure>
 <hr>
 <h5 id="display-inline-block"><a href="#display-inline-block" class="headerlink" title="display:inline-block"></a><code>display:inline-block</code></h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">简单来说就是将对象呈现为inline对象，但是对象的内容作为block对象呈现。</div><div class="line">之后的内联对象会被排列在同一行内。</div><div class="line">比如我们可以给一个link（a元素）inline-block属性值，</div><div class="line">使其既具有block的宽度高度特性又具有inline的同行特性。</div></pre></td></tr></table></figure>
-<p>```</p>
 <hr>
 ]]></content>
     
