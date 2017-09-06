@@ -1,0 +1,216 @@
+/* 背景色 */
+body {
+	background: #DEDDDD;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+
+/* CSS reset */
+a {
+	text-decoration: none;
+	border: none;
+}
+
+a:hover {
+	color: white;
+}
+
+h3 {
+	display: inline-block;
+
+	margin: 0;
+	margin-left: 20px;
+}
+
+#upLayer ,
+#downLayer {
+	height: 150px;
+}
+
+
+/* 正文 */
+#task {
+	position: relative;
+	left: 200px;
+	width: 1000px;
+	height: 400px;
+
+	background: url(../img/task.png) no-repeat;
+}
+
+#boxAll {
+	margin: auto;
+
+	width: 1200px;
+	height: 300px;
+	
+	border-radius: 20px;
+	box-shadow: 20px 20px 50px #888;
+
+	background: #CACACA;
+}
+
+
+/* 上层轮子 */
+#upLayer {
+	position: relative;
+	top: 2px;
+}
+
+#upLayer div {
+	width: 198px;
+
+	float: left;
+
+	border-right: 2px #747474 solid;
+}
+
+#upLayer div:nth-child(6) {
+	border: none;
+}
+
+#upLayer section {
+	background: #C9C8C8;
+
+	width: 150px;
+
+	margin-left: 24px;
+}
+
+#QRcode {
+	width: 16px;
+	height: 16px;
+
+	display: inline-block;
+
+	background: green;
+
+	position: relative;
+
+	top: 2px;
+}
+
+#upAdvertisement {
+	display: block;
+
+	width: 150px;
+	height: 74px;
+
+	background: plum;
+
+	margin-top: 4px;
+}
+
+#upLayer a ,
+#upLayer span {
+	display: block;
+	width: 150px;
+
+	text-align: center;
+
+	margin-top: 2px;
+}
+
+#upLayer span {
+	font: 12px/20px gray;
+
+	color: #8B8B8B;
+}
+
+
+/* 下层轮子 */
+#downLayer {
+	position: relative;
+	bottom: 2px;
+}
+
+#downLayer #downAdvertisement {
+	width: 198px;
+	height: 150px;
+
+	float: left;
+
+	border-right: 2px #747474 solid;
+}
+
+#downLayer section {
+	width: 60px;
+
+	float: left;
+
+	position: relative;
+	left: 20px;
+
+	margin-left: 4px;	
+	margin-right: 20px;
+	margin-top: 6px;	
+}
+
+#downLayer section img {
+	display: block;
+
+	width: 60px;
+	height: 60px;
+
+	background: red;
+}
+
+#downLayer section a {
+	display: block;
+
+	width: 60px;
+
+	text-align: center;
+}
+
+#downAdvertisement div a ,
+.last a {
+	display: inline-block;
+
+	padding-left: 2px;
+	padding-right: 10px;
+
+	border-right: 1px solid #878787;
+
+	margin-top: 4px;
+
+	position: relative;
+	left: 20px;
+}
+
+
+#downAdvertisement div a:nth-child(4) {
+	color: white;
+}
+
+#downLayer .last {
+	float: right;
+
+	width: 200px;
+	height: 150px;
+
+	position: relative;
+	left: 5px;
+}
+
+.last div{
+	width: 160px;
+
+	margin-left: 24px;
+}
+
+.last img {
+	display: block;
+
+	width: 140px;
+	height: 100px;
+
+	background: red;
+}
+
+.last a {
+	padding-right: 6px;
+
+	left: 0;
+}
