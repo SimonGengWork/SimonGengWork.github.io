@@ -32,8 +32,8 @@ h3 {
 /* 正文 */
 #task {
 	position: relative;
-	left: 200px;
-	width: 1000px;
+	left: 126px;
+	width: 1200px;
 	height: 400px;
 
 	background: url(../img/task.png) no-repeat;
@@ -71,7 +71,7 @@ h3 {
 }
 
 #upLayer section {
-	background: #C9C8C8;
+	background: #DAD9D9;
 
 	width: 150px;
 
@@ -203,8 +203,11 @@ h3 {
 .last img {
 	display: block;
 
+	margin-top: 6px;
+	margin-bottom: 8px;
+
 	width: 140px;
-	height: 100px;
+	height: 70px;
 
 	background: red;
 }
