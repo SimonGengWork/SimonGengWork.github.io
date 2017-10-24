@@ -103,9 +103,9 @@
 <meta property="og:site_name" content="青菜大叔_耳南">
 <meta property="og:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/Speedtest.jpg">
-<meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/1508845215243feedbackSpeed.jpg">
-<meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/U2Bspeed.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/Speedtest.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/feedbackSpeed.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/U2Bspeed.png">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/1.jpg">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/feedbackSpeed.jpg">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/2.jpg">
@@ -122,11 +122,11 @@
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/14.png">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/15.png">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/16.png">
-<meta property="og:updated_time" content="2017-10-24T12:18:00.881Z">
+<meta property="og:updated_time" content="2017-10-24T12:31:57.359Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TCP-bbr &amp; 锐速 by Bandwagon">
 <meta name="twitter:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
-<meta name="twitter:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/Speedtest.jpg">
+<meta name="twitter:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/Speedtest.jpg">
 
 
 
@@ -382,7 +382,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-10-24T20:18:00+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-10-24T20:31:57+08:00">
                 2017-10-24
               </time>
             
@@ -433,7 +433,7 @@
 <a id="more"></a>
 <hr>
 <h3 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
-<p>测速环境：联通Download:50M  Upload：4M<br>U2B 4K无压力，玩个吃鸡游戏也蛮不错<br><img src="index_files/Speedtest.jpg" alt=""><br><img src="index_files/1508845215243feedbackSpeed.jpg" alt=""><br><img src="index_files/U2Bspeed.png" alt=""></p>
+<p>测速环境：联通Download:50M  Upload：4M<br>U2B 4K无压力，玩个吃鸡游戏也蛮不错<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/Speedtest.jpg" alt=""><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/feedbackSpeed.jpg" alt=""><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/U2Bspeed.png" alt=""></p>
 <h3 id="Shadowsocks-ShadowsocksR-bbr篇"><a href="#Shadowsocks-ShadowsocksR-bbr篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + bbr篇"></a>Shadowsocks(ShadowsocksR) + bbr篇</h3><p><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>实现<code>Sahdowsocks + bbr</code>有很多种方法，下面介绍两种 :</p>
 <h4 id="1-图形界面版"><a href="#1-图形界面版" class="headerlink" title="1. 图形界面版"></a>1. 图形界面版</h4><blockquote>
 <p>   使用购买后的IP及密码登陆<a href="https://kiwivm.64clouds.com/main.php" target="_blank" rel="external">Kiwivm面板</a></p>
