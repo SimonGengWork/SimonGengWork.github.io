@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-09-08T11:21:09.050Z</updated>
+  <updated>2017-10-24T12:09:51.299Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -14,6 +14,89 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TCP-bbr &amp; 锐速 by Bandwagon</title>
+    <link href="http://gengsinan.com/2017/10/24/TCP-bbr-%E9%94%90%E9%80%9F-by-Bandwagon/"/>
+    <id>http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/</id>
+    <published>2017-10-24T12:08:51.000Z</published>
+    <updated>2017-10-24T12:09:51.299Z</updated>
+    
+    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+
+<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
+<a id="more"></a>
+<hr>
+<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
+<p>测速环境：联通Download:50M  Upload：4M<br>U2B 4K无压力，玩个吃鸡游戏也蛮不错<br><img src="index_files/Speedtest.jpg" alt=""><br><img src="index_files/1508845215243feedbackSpeed.jpg" alt=""><br><img src="index_files/U2Bspeed.png" alt=""></p>
+<h3 id="Shadowsocks-ShadowsocksR-bbr篇"><a href="#Shadowsocks-ShadowsocksR-bbr篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + bbr篇"></a>Shadowsocks(ShadowsocksR) + bbr篇</h3><p><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>实现<code>Sahdowsocks + bbr</code>有很多种方法，下面介绍两种 :</p>
+<h4 id="1-图形界面版"><a href="#1-图形界面版" class="headerlink" title="1. 图形界面版"></a>1. 图形界面版</h4><blockquote>
+<p>   使用购买后的IP及密码登陆<a href="https://kiwivm.64clouds.com/main.php" target="_blank" rel="external">Kiwivm面板</a></p>
+<blockquote>
+<p>  给你的VPS做个系统<br><img src="index_files/1.jpg" alt=""><br>点击<img src="index_files/feedbackSpeed.jpg" alt="">Main controls(主控台)界面，时不时刷新下，如果系统做好了会出现如下界面<font color="red">(推荐CentOS-6-x86_64)</font><br><img src="index_files/2.jpg" alt=""><br>然后可以选择Shadowsocks Server(简称SS)也可以选择ShadowsocksR Server(简称SSR <font color="red">推荐这个</font>)；SSR对比SS可以混淆协议，两者安装方法基本一致<br><img src="index_files/3.jpg" alt=""><br>安装时间10几秒，成功后会出现Completing字样,然后点击Go back返回到ShadowsocksR Server中(截图搞丢了)，安装好的界面是这样的(我的是SS的界面)<br><img src="index_files/4.jpg" alt=""></p>
+</blockquote>
+</blockquote>
+<p>上面设置的是Shadowsocks服务端</p>
+<p><a href="https://www.gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/" target="_blank" rel="external">Shadowsocks客户端教程传送门(含Windows、MacOS、Linux)</a></p>
+<h4 id="2-命令行版"><a href="#2-命令行版" class="headerlink" title="2. 命令行版"></a>2. 命令行版</h4><blockquote>
+<p> 安装CentOS-6-x86_64系统(方法如上)<br>然后用Bash工具(MacOS：Iterm2  Windows:Xshell或Git Bash等)使用SSH命令远程连接<br><code>ssh 用户名@IP -p 端口</code><br>输入密码(建议用root账户)<br>查看系统内核<br><code>uname -r</code><br>如果没有wget工具可以先安装<br><code>yum -y install wget</code><br>将内核升级到4.9.0执行下面一行命令：<br><code>wget -O- <a href="https://zhujiwiki.com/usr/uploads/2016/12/install_bbr_centos.sh" target="_blank" rel="external">https://zhujiwiki.com/usr/uploads/2016/12/install_bbr_centos.sh</a> | bash</code><br><img src="index_files/6.jpg" alt=""><br>完成后执行重启VPS：<br><code>reboot</code><br>然后重连SSH<br><code>ssh 用户名@IP -p 端口</code><br>输入密码<br>重新登陆执行查看内核：</p>
+<p><uname -r=""><br><img src="index_files/7.jpg" alt=""><br>内核已经升级成4.9.0版本,接着执行：<br><code>sysctl -a|grep congestion_control</code><br>如果输出选项中有<br><code>net.ipv4.tcp_congestion_control = bbr</code><br>表示安装成功，其他选项可忽略。<br><img src="index_files/8.jpg" alt=""><br>如果输出结果net.ipv4.tcp_congestion_control = 结果不是bbr 则需要手动开启bbr模式(以下命令需一行行执行)：<br><strong>执行前注意去掉 “ 号前的 \ 符号</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">echo \&quot;net.core.default_qdisc=fq\&quot; &gt;&gt; /etc/sysctl.conf</div><div class="line">echo \&quot;net.ipv4.tcp_congestion_control=bbr\&quot; &gt;&gt; /etc/sysctl.conf</div><div class="line">sysctl -p</div><div class="line">sysctl net.ipv4.tcp_available_congestion_control</div></pre></td></tr></table></figure></uname></p>
+</blockquote>
+<p>执行完成后再次执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl -a|grep congestion_control</div></pre></td></tr></table></figure></p>
+<p>就会看到bbr模式已经开启。</p>
+<p>最后回到界面安装SS服务端或SSR服务端即可</p>
+<h3 id="Shadowsocks-ShadowsocksR-锐速篇"><a href="#Shadowsocks-ShadowsocksR-锐速篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + 锐速篇"></a>Shadowsocks(ShadowsocksR) + 锐速篇</h3><blockquote>
+<h4 id="前言-1"><a href="#前言-1" class="headerlink" title="前言"></a>前言</h4><p>环境:<br>CentOS 6支持安装锐速的内核：2.6.32-504.3.3.el6.x86_64<br>CentOS 7支持安装锐速的内核：3.10.0-327.el7.x86_64</p>
+<h4 id="安装CentOS-6-x86-64系统-方法如上"><a href="#安装CentOS-6-x86-64系统-方法如上" class="headerlink" title="安装CentOS-6-x86_64系统(方法如上)"></a>安装CentOS-6-x86_64系统(方法如上)</h4><ol>
+<li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">uname -r #查看当前内核版本 </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</blockquote>
+<p><img src="index_files/9.png" alt=""></p>
+<ol>
+<li>执行命令“rpm -qa | grep kernel”，查看内核是否安装成功。如果显示你安装的内核版本，表示安装成功。<br><code>rpm -qa | grep kernel</code><br><img src="index_files/10.png" alt=""></li>
+<li>重启VPS，查看内核是否修改成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">reboot #重启VPS</div><div class="line">uname -r #当前使用内核版本</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="index_files/11.png" alt=""></p>
+<blockquote>
+<h4 id="安装CentOS-7-x86-64系统-方法如上"><a href="#安装CentOS-7-x86-64系统-方法如上" class="headerlink" title="安装CentOS-7-x86_64系统(方法如上)"></a>安装CentOS-7-x86_64系统(方法如上)</h4><ol>
+<li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force</div><div class="line">rpm -qa | grep kernel #查看内核是否安装成功</div></pre></td></tr></table></figure>
+</li>
+</ol>
+</blockquote>
+<p><img src="index_files/12.png" alt=""></p>
+<ol>
+<li>重启VPS，查看内核是否修改成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">reboot #重启VPS</div><div class="line">uname -r #当前使用内核版本</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="index_files/13.png" alt=""><br>3.目前Centos 7小问题比较多，锐速针对centos 7的版版本较少。推荐在CentOS 6.中安装。</p>
+<blockquote>
+<h4 id="锐速破解版安装"><a href="#锐速破解版安装" class="headerlink" title="锐速破解版安装"></a>锐速破解版安装</h4><ul>
+<li>一键安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate -qO /tmp/appex.sh &quot;https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh&quot; &amp;&amp; bash /tmp/appex.sh &apos;install&apos;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+</blockquote>
+<p><img src="index_files/14.png" alt=""></p>
+<ul>
+<li>安装过程很简单，如果你的VPS内核支持安装，根本无需你手动操作，直接一键完成。<br><img src="index_files/15.png" alt=""></li>
+<li>如果你VPS内核没有找到匹配的锐速版本，会自动提示选择接近版本。<br><img src="index_files/16.png" alt=""></li>
+<li>锐速serverspeeder常用命令：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">service serverSpeeder start #启动</div><div class="line">service serverSpeeder stop #停止</div><div class="line">service serverSpeeder reload #重新加载配置</div><div class="line">service serverSpeeder restart #重启</div><div class="line">service serverSpeeder status #状态</div><div class="line">service serverSpeeder stats #统计</div><div class="line">service serverSpeeder renewLic #更新许可文件</div><div class="line">service serverSpeeder update #更新</div><div class="line">chattr -i /serverspeeder/etc/apx* &amp;&amp; /serverspeeder/bin/serverSpeeder.sh uninstall -f #卸载</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>最后安装Shadowsocks server或ShadowsocksR server，尽情的扶墙吧</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;font size=&quot;3&quot;&gt;&lt;strong&gt;&lt;center&gt;摘要&lt;/center&gt;&lt;/strong&gt;&lt;/font&gt;
+
+&lt;p&gt;本篇文章主要记录了我利用&lt;a href=&quot;https://bandwagonhost.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工(请扶墙访问)&lt;/a&gt;的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>HTML+HTML5 常用标签 和 一些注意事项</title>
