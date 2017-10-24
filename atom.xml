@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-10-24T12:15:13.649Z</updated>
+  <updated>2017-10-24T12:18:00.881Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,14 +20,14 @@
     <link href="http://gengsinan.com/2017/10/24/TCP-bbr-%E9%94%90%E9%80%9F-by-Bandwagon/"/>
     <id>http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/</id>
     <published>2017-10-24T12:08:51.000Z</published>
-    <updated>2017-10-24T12:15:13.649Z</updated>
+    <updated>2017-10-24T12:18:00.881Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
 <p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用<code>Google-TCP-bbr</code>或<code>锐速</code>两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
 <a id="more"></a>
 <hr>
-<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
+<h3 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
 <p>测速环境：联通Download:50M  Upload：4M<br>U2B 4K无压力，玩个吃鸡游戏也蛮不错<br><img src="index_files/Speedtest.jpg" alt=""><br><img src="index_files/1508845215243feedbackSpeed.jpg" alt=""><br><img src="index_files/U2Bspeed.png" alt=""></p>
 <h3 id="Shadowsocks-ShadowsocksR-bbr篇"><a href="#Shadowsocks-ShadowsocksR-bbr篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + bbr篇"></a>Shadowsocks(ShadowsocksR) + bbr篇</h3><p><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>实现<code>Sahdowsocks + bbr</code>有很多种方法，下面介绍两种 :</p>
 <h4 id="1-图形界面版"><a href="#1-图形界面版" class="headerlink" title="1. 图形界面版"></a>1. 图形界面版</h4><blockquote>
@@ -46,7 +46,7 @@
 <p>就会看到bbr模式已经开启。</p>
 <p>最后回到界面安装SS服务端或SSR服务端即可</p>
 <h3 id="Shadowsocks-ShadowsocksR-锐速篇"><a href="#Shadowsocks-ShadowsocksR-锐速篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + 锐速篇"></a>Shadowsocks(ShadowsocksR) + 锐速篇</h3><blockquote>
-<h4 id="前言-1"><a href="#前言-1" class="headerlink" title="前言"></a>前言</h4><p>环境:<br>CentOS 6支持安装锐速的内核：2.6.32-504.3.3.el6.x86_64<br>CentOS 7支持安装锐速的内核：3.10.0-327.el7.x86_64</p>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>环境:<br>CentOS 6支持安装锐速的内核：2.6.32-504.3.3.el6.x86_64<br>CentOS 7支持安装锐速的内核：3.10.0-327.el7.x86_64</p>
 <h4 id="安装CentOS-6-x86-64系统-方法如上"><a href="#安装CentOS-6-x86-64系统-方法如上" class="headerlink" title="安装CentOS-6-x86_64系统(方法如上)"></a>安装CentOS-6-x86_64系统(方法如上)</h4><ol>
 <li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">uname -r #查看当前内核版本 </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</div></pre></td></tr></table></figure>
 </li>
