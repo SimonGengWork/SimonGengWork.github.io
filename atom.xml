@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2017-10-24T12:09:51.299Z</updated>
+  <updated>2017-10-24T12:15:13.649Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://gengsinan.com/2017/10/24/TCP-bbr-%E9%94%90%E9%80%9F-by-Bandwagon/"/>
     <id>http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/</id>
     <published>2017-10-24T12:08:51.000Z</published>
-    <updated>2017-10-24T12:09:51.299Z</updated>
+    <updated>2017-10-24T12:15:13.649Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
-<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
+<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用<code>Google-TCP-bbr</code>或<code>锐速</code>两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
 <a id="more"></a>
 <hr>
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
@@ -91,7 +91,7 @@
     
       &lt;font size=&quot;3&quot;&gt;&lt;strong&gt;&lt;center&gt;摘要&lt;/center&gt;&lt;/strong&gt;&lt;/font&gt;
 
-&lt;p&gt;本篇文章主要记录了我利用&lt;a href=&quot;https://bandwagonhost.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工(请扶墙访问)&lt;/a&gt;的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法&lt;/p&gt;
+&lt;p&gt;本篇文章主要记录了我利用&lt;a href=&quot;https://bandwagonhost.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工(请扶墙访问)&lt;/a&gt;的VPS搭建Shadowsocks后，如何利用&lt;code&gt;Google-TCP-bbr&lt;/code&gt;或&lt;code&gt;锐速&lt;/code&gt;两种工具实现Shadowsocks扶墙速度突破天际的方法&lt;/p&gt;
     
     </summary>
     

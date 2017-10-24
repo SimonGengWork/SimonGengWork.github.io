@@ -96,12 +96,12 @@
 
 
 
-<meta name="description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法">
+<meta name="description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="TCP-bbr &amp; 锐速 by Bandwagon">
 <meta property="og:url" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index.html">
 <meta property="og:site_name" content="青菜大叔_耳南">
-<meta property="og:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法">
+<meta property="og:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/Speedtest.jpg">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/1508845215243feedbackSpeed.jpg">
@@ -122,10 +122,10 @@
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/14.png">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/15.png">
 <meta property="og:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/16.png">
-<meta property="og:updated_time" content="2017-10-24T12:09:51.299Z">
+<meta property="og:updated_time" content="2017-10-24T12:15:13.649Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TCP-bbr &amp; 锐速 by Bandwagon">
-<meta name="twitter:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法">
+<meta name="twitter:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
 <meta name="twitter:image" content="http://gengsinan.com/2017/10/24/TCP-bbr-锐速-by-Bandwagon/index_files/Speedtest.jpg">
 
 
@@ -382,7 +382,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-10-24T20:09:51+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-10-24T20:15:13+08:00">
                 2017-10-24
               </time>
             
@@ -429,7 +429,7 @@
       
         <font size="3"><strong><center>摘要</center></strong></font>
 
-<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr 或 锐速 两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
+<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用<code>Google-TCP-bbr</code>或<code>锐速</code>两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
 <a id="more"></a>
 <hr>
 <h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
