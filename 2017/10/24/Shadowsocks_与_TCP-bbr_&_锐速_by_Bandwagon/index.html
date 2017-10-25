@@ -78,7 +78,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="Shadowsocks,科学上网,翻墙," />
 
 
 
@@ -96,16 +96,38 @@
 
 
 
-<meta name="description" content="-------- 食淡能知味，心清可悟真 ---------">
-<meta property="og:type" content="website">
-<meta property="og:title" content="青菜大叔_耳南">
-<meta property="og:url" content="http://gengsinan.com/archives/index.html">
+<meta name="description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
+<meta name="keywords" content="Shadowsocks,科学上网,翻墙">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shadowsocks 与 TCP-bbr &amp; 锐速 by Bandwagon">
+<meta property="og:url" content="http://gengsinan.com/2017/10/24/Shadowsocks_与_TCP-bbr_&_锐速_by_Bandwagon/index.html">
 <meta property="og:site_name" content="青菜大叔_耳南">
-<meta property="og:description" content="-------- 食淡能知味，心清可悟真 ---------">
+<meta property="og:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/Speedtest.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/feedbackSpeed.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/U2Bspeed.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/1.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/2.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/3.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/4.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/5.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/6.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/7.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/8.jpg">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/9.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/10.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/11.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/12.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/13.png">
+<meta property="og:image" content="http://gengsinan.com/2017/10/24/Shadowsocks_与_TCP-bbr_&_锐速_by_Bandwagon/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/14.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/15.png">
+<meta property="og:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/16.png">
+<meta property="og:updated_time" content="2017-10-25T03:01:24.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="青菜大叔_耳南">
-<meta name="twitter:description" content="-------- 食淡能知味，心清可悟真 ---------">
+<meta name="twitter:title" content="Shadowsocks 与 TCP-bbr &amp; 锐速 by Bandwagon">
+<meta name="twitter:description" content="摘要  本篇文章主要记录了我利用搬瓦工(请扶墙访问)的VPS搭建Shadowsocks后，如何利用Google-TCP-bbr或锐速两种工具实现Shadowsocks扶墙速度突破天际的方法">
+<meta name="twitter:image" content="http://gengsinan.com/images/TCP-bbr%20&%20锐速%20by%20Bandwagon/Speedtest.jpg">
 
 
 
@@ -134,13 +156,13 @@
 
 
 
-  <link rel="canonical" href="http://gengsinan.com/archives/"/>
+  <link rel="canonical" href="http://gengsinan.com/2017/10/24/Shadowsocks_与_TCP-bbr_&_锐速_by_Bandwagon/"/>
 
 
 
 
 
-  <title>归档 | 青菜大叔_耳南</title>
+  <title>Shadowsocks 与 TCP-bbr & 锐速 by Bandwagon | 青菜大叔_耳南</title>
   
 
 
@@ -159,7 +181,7 @@
     
   
 
-  <div class="container sidebar-position-left  page-archive  ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -297,259 +319,287 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://gengsinan.com/2017/10/24/Shadowsocks_与_TCP-bbr_&_锐速_by_Bandwagon/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="耳南">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="青菜大叔_耳南">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h1 class="post-title" itemprop="name headline">Shadowsocks 与 TCP-bbr & 锐速 by Bandwagon</h1>
         
+
+        <div class="post-meta">
+          <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+            <a href="/authors/" itemprop="url" rel="index">
+              <span itemprop="name">青菜大叔_耳南</span>
+            </a>
+          </span>
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-24T20:08:51+08:00">
+                2017-10-24
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2017-10-25T11:01:24+08:00">
+                2017-10-25
+              </time>
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 6 篇日志 继续努力。
-      </span>
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/科学上网/" itemprop="url" rel="index">
+                    <span itemprop="name">科学上网</span>
+                  </a>
+                </span>
 
-      
-
-        
-        
-        
-
-        
+                
+                
+              
+            </span>
           
-          <div class="collection-title">
-            <h2 class="archive-year motion-element" id="archive-year-2017">2017</h2>
-          </div>
-        
-        
 
-        
+          
+            
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
+          
+             <span id="/2017/10/24/Shadowsocks_与_TCP-bbr_&_锐速_by_Bandwagon/" class="leancloud_visitors" data-flag-title="Shadowsocks 与 TCP-bbr & 锐速 by Bandwagon">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
 
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/10/24/Shadowsocks_与_TCP-bbr_&_锐速_by_Bandwagon/" itemprop="url">
-              
-                <span itemprop="name">Shadowsocks 与 TCP-bbr & 锐速 by Bandwagon</span>
-              
-            </a>
-        
-      </h2>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-10-24T20:08:51+08:00"
-              content="2017-10-24" >
-          10-24
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+          
 
+        </div>
+      </header>
+    
 
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/09/04/HTML-HTML5-常用标签-和-一些注意事项/" itemprop="url">
-              
-                <span itemprop="name">HTML+HTML5 常用标签 和 一些注意事项</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-04T18:54:07+08:00"
-              content="2017-09-04" >
-          09-04
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/09/02/CSS-CSS3-常用样式-复合样式-和-一些注意事项/" itemprop="url">
-              
-                <span itemprop="name">CSS+CSS3 常用样式+复合样式 和 一些注意事项</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-09-02T22:23:18+08:00"
-              content="2017-09-02" >
-          09-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
+      
+        <font size="3"><strong><center>摘要</center></strong></font>
 
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/08/31/前端作业/" itemprop="url">
-              
-                <span itemprop="name">前端作业</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-31T15:13:04+08:00"
-              content="2017-08-31" >
-          08-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用<code>Google-TCP-bbr</code>或<code>锐速</code>两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
+<a id="more"></a>
+<hr>
+<h3 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
+<p>测速环境：联通Download:50M  Upload：4M<br>U2B 4K无压力，玩个吃鸡游戏也蛮不错<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/Speedtest.jpg" alt=""><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/feedbackSpeed.jpg" alt=""><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/U2Bspeed.png" alt=""></p>
+<h3 id="Shadowsocks-ShadowsocksR-bbr篇"><a href="#Shadowsocks-ShadowsocksR-bbr篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + bbr篇"></a>Shadowsocks(ShadowsocksR) + bbr篇</h3><p><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>实现<code>Sahdowsocks + bbr</code>有很多种方法，下面介绍两种 :</p>
+<h4 id="1-图形界面版"><a href="#1-图形界面版" class="headerlink" title="1. 图形界面版"></a>1. 图形界面版</h4><blockquote>
+<p>   使用购买后的IP及密码登陆<a href="https://kiwivm.64clouds.com/main.php" target="_blank" rel="external">Kiwivm面板</a></p>
+<blockquote>
+<p>  给你的VPS做个系统<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/1.jpg" alt=""><br>点击Main controls(主控台)界面，时不时刷新下，如果系统做好了会出现如下界面<font color="red">(推荐CentOS-6-x86_64)</font><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/2.jpg" alt=""><br>然后可以选择Shadowsocks Server(简称SS)也可以选择ShadowsocksR Server(简称SSR <font color="red">推荐这个</font>)；SSR对比SS可以混淆协议，两者安装方法基本一致<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/3.jpg" alt=""><br>安装时间10几秒，成功后会出现Completing字样,然后点击Go back返回到ShadowsocksR Server中(截图搞丢了)，安装好的界面是这样的(我的是SS的界面)<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/4.jpg" alt=""></p>
+</blockquote>
+</blockquote>
+<p>上面设置的是Shadowsocks服务端</p>
+<p><a href="https://www.gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/" target="_blank" rel="external">Shadowsocks客户端教程传送门(含Windows、MacOS、Linux)</a></p>
+<h4 id="2-命令行版"><a href="#2-命令行版" class="headerlink" title="2. 命令行版"></a>2. 命令行版</h4><blockquote>
+<p> 安装CentOS-6-x86_64系统(方法如上)<br>然后用Bash工具(MacOS：Iterm2  Windows:Xshell或Git Bash等)使用SSH命令远程连接<br><code>ssh 用户名@IP -p 端口</code><br>输入密码(建议用root账户)<br>查看系统内核<br><code>uname -r</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/5.jpg" alt=""><br>如果没有wget工具可以先安装<br><code>yum -y install wget</code><br>将内核升级到4.9.0执行下面一行命令：<br><code>wget -O- <a href="https://zhujiwiki.com/usr/uploads/2016/12/install_bbr_centos.sh" target="_blank" rel="external">https://zhujiwiki.com/usr/uploads/2016/12/install_bbr_centos.sh</a> | bash</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/6.jpg" alt=""><br>完成后执行重启VPS：<br><code>reboot</code><br>然后重连SSH<br><code>ssh 用户名@IP -p 端口</code><br>输入密码<br>重新登陆执行查看内核：<br><code>uname -r</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/7.jpg" alt=""><br>内核已经升级成4.9.0版本,接着执行：<br><code>sysctl -a|grep congestion_control</code><br>如果输出选项中有<br><code>net.ipv4.tcp_congestion_control = bbr</code><br>表示安装成功，其他选项可忽略。<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/8.jpg" alt=""><br>如果输出结果net.ipv4.tcp_congestion_control = 结果不是bbr 则需要手动开启bbr模式(以下命令需一行行执行)：<br><strong>执行前注意去掉 “ 号前的 \ 符号</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">echo \&quot;net.core.default_qdisc=fq\&quot; &gt;&gt; /etc/sysctl.conf</div><div class="line">echo \&quot;net.ipv4.tcp_congestion_control=bbr\&quot; &gt;&gt; /etc/sysctl.conf</div><div class="line">sysctl -p</div><div class="line">sysctl net.ipv4.tcp_available_congestion_control</div></pre></td></tr></table></figure></p>
+<p>执行完成后再次执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl -a|grep congestion_control</div></pre></td></tr></table></figure></p>
+<p>就会看到bbr模式已经开启。</p>
+<p>最后回到界面安装SS服务端或SSR服务端即可</p>
+</blockquote>
+<h3 id="Shadowsocks-ShadowsocksR-锐速篇"><a href="#Shadowsocks-ShadowsocksR-锐速篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + 锐速篇"></a>Shadowsocks(ShadowsocksR) + 锐速篇</h3><blockquote>
+<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>环境:<br>CentOS 6支持安装锐速的内核：2.6.32-504.3.3.el6.x86_64<br>CentOS 7支持安装锐速的内核：3.10.0-327.el7.x86_64</p>
+<h4 id="安装CentOS-6-x86-64系统-方法如上"><a href="#安装CentOS-6-x86-64系统-方法如上" class="headerlink" title="安装CentOS-6-x86_64系统(方法如上)"></a>安装CentOS-6-x86_64系统(方法如上)</h4><ol>
+<li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">uname -r #查看当前内核版本 </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/9.png" alt=""></p>
+<ol>
+<li>执行命令“rpm -qa | grep kernel”，查看内核是否安装成功。如果显示你安装的内核版本，表示安装成功。<br><code>rpm -qa | grep kernel</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/10.png" alt=""></li>
+<li>重启VPS，查看内核是否修改成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">reboot #重启VPS</div><div class="line">uname -r #当前使用内核版本</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/11.png" alt=""></p>
+<h4 id="安装CentOS-7-x86-64系统-方法如上"><a href="#安装CentOS-7-x86-64系统-方法如上" class="headerlink" title="安装CentOS-7-x86_64系统(方法如上)"></a>安装CentOS-7-x86_64系统(方法如上)</h4><ol>
+<li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force</div><div class="line">rpm -qa | grep kernel #查看内核是否安装成功</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/12.png" alt=""></p>
+<ol>
+<li>重启VPS，查看内核是否修改成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">reboot #重启VPS</div><div class="line">uname -r #当前使用内核版本</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/13.png" alt=""><br>3.目前Centos 7小问题比较多，锐速针对centos 7的版版本较少。推荐在CentOS 6.中安装。</p>
+<h4 id="锐速破解版安装"><a href="#锐速破解版安装" class="headerlink" title="锐速破解版安装"></a>锐速破解版安装</h4><ul>
+<li>一键安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate -qO /tmp/appex.sh &quot;https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh&quot; &amp;&amp; bash /tmp/appex.sh &apos;install&apos;</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p><img src="images/TCP-bbr &amp; 锐速 by Bandwagon/14.png" alt=""></p>
+<ul>
+<li>安装过程很简单，如果你的VPS内核支持安装，根本无需你手动操作，直接一键完成。<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/15.png" alt=""></li>
+<li>如果你VPS内核没有找到匹配的锐速版本，会自动提示选择接近版本。<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/16.png" alt=""></li>
+<li>锐速serverspeeder常用命令：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">service serverSpeeder start #启动</div><div class="line">service serverSpeeder stop #停止</div><div class="line">service serverSpeeder reload #重新加载配置</div><div class="line">service serverSpeeder restart #重启</div><div class="line">service serverSpeeder status #状态</div><div class="line">service serverSpeeder stats #统计</div><div class="line">service serverSpeeder renewLic #更新许可文件</div><div class="line">service serverSpeeder update #更新</div><div class="line">chattr -i /serverspeeder/etc/apx* &amp;&amp; /serverspeeder/bin/serverSpeeder.sh uninstall -f #卸载</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>最后安装Shadowsocks server或ShadowsocksR server，尽情的扶墙吧</p>
+</blockquote>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/08/31/科学上网之Shadowsocks-Chrome/" itemprop="url">
-              
-                <span itemprop="name">科学上网之VPS(免费)+Shadowsocks+Chrome</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-31T11:49:48+08:00"
-              content="2017-08-31" >
-          08-31
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2017/08/24/hello-world/" itemprop="url">
-              
-                <span itemprop="name">Hello World</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-08-24T19:01:33+08:00"
-              content="2017-08-24" >
-          08-24
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span onmouseover="this.style.color='#fff';this.style.background='#948f91'" onMouseOut="this.style.color='#fff';this.style.background='#bab1b5'" style=" color: #fff; background: #bab1b5">投食</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="耳南 WeChat Pay"/>
+        <p>微信投食码</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="耳南 Alipay"/>
+        <p>支付宝投食码</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Shadowsocks/" rel="tag"># Shadowsocks</a>
+          
+            <a href="/tags/科学上网/" rel="tag"># 科学上网</a>
+          
+            <a href="/tags/翻墙/" rel="tag"># 翻墙</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/04/HTML-HTML5-常用标签-和-一些注意事项/" rel="next" title="HTML+HTML5 常用标签 和 一些注意事项">
+                <i class="fa fa-chevron-left"></i> HTML+HTML5 常用标签 和 一些注意事项
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -557,6 +607,22 @@
 
 
           
+  <div class="comments" id="comments"></div>
+    
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='/lib/Valine.min.js'></script>
+    <script>
+        new Valine({
+            av: AV,
+            el: '.comments' ,
+            verify: true,
+            app_id: 'PkseS5Ey9AXDn5gDHt5rgX3x-gzGzoHsz',
+            app_key: 'A4eywSPH6GBpnzJh4NsmbmxY',
+            placeholder: 'ヾﾉ≧∀≦)o Hi~这里写评论哟~!'
+        });
+    </script>
+    
+
 
         </div>
         
@@ -577,8 +643,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -708,6 +783,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#须知"><span class="nav-number">1.</span> <span class="nav-text">须知</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Shadowsocks-ShadowsocksR-bbr篇"><span class="nav-number">2.</span> <span class="nav-text">Shadowsocks(ShadowsocksR) + bbr篇</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-图形界面版"><span class="nav-number">2.1.</span> <span class="nav-text">1. 图形界面版</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-命令行版"><span class="nav-number">2.2.</span> <span class="nav-text">2. 命令行版</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Shadowsocks-ShadowsocksR-锐速篇"><span class="nav-number">3.</span> <span class="nav-text">Shadowsocks(ShadowsocksR) + 锐速篇</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#前言"><span class="nav-number">3.1.</span> <span class="nav-text">前言</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装CentOS-6-x86-64系统-方法如上"><span class="nav-number">3.2.</span> <span class="nav-text">安装CentOS-6-x86_64系统(方法如上)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#安装CentOS-7-x86-64系统-方法如上"><span class="nav-number">3.3.</span> <span class="nav-text">安装CentOS-7-x86_64系统(方法如上)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#锐速破解版安装"><span class="nav-number">3.4.</span> <span class="nav-text">锐速破解版安装</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -822,11 +913,9 @@
   
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.2"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.2"></script>
+
 
 
   
