@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2018-02-04T22:00:36.276Z</updated>
+  <updated>2018-02-05T02:58:12.640Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -20,12 +20,61 @@
     <link href="http://gengsinan.com/2018/02/05/%E4%B8%AD%E5%9B%BD%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E7%9B%9B%E4%BA%AC%E5%8C%BB%E9%99%A2-%E5%9F%BA%E5%BA%95%E5%8A%A8%E8%84%89%E9%97%AD%E5%A1%9E%E6%89%8B%E6%9C%AF/"/>
     <id>http://gengsinan.com/2018/02/05/中国医科大学附属盛京医院-基底动脉闭塞手术/</id>
     <published>2018-02-04T22:00:36.000Z</published>
-    <updated>2018-02-04T22:00:36.276Z</updated>
+    <updated>2018-02-05T02:58:12.640Z</updated>
+    
+    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+
+
+<p><strong><font size="2">医院陪护日志</font></strong></p>
+<a id="more"></a>
+<hr>
+<ul>
+<li>2018年1月28日<br>发病送入<font color="red"><strong>中国医科大学附属盛京医院(抚顺)</strong></font>住院部</li>
+</ul>
+<hr>
+<ul>
+<li>2018年2月01日<br>病情恶化，转院<font color="red"><strong>中国医科大学附属盛京医院(抚顺)</strong></font><font color="black"> 转至 </font><font color="red"><strong>沈阳医科大学附属第一医院</strong></font><br>13：30 抵达 <font color="red"><strong>沈阳医科大学附属第一医院</strong></font> 急诊门诊<br>16：30 再次转院 <font color="red"><strong>沈阳医科大学附属第一医院</strong></font><font color="black">急诊门诊 转至 </font><font color="red"><strong>中国医科大学附属盛京医院(沈阳)</strong></font><br>16：55 抵达<font color="red"><strong>中国医科大学附属盛京医院(沈阳)</strong></font>急诊门诊</li>
+</ul>
+<hr>
+<p><img src="index_files/Emergency_20Lobby_2.JPG" alt=""></p>
+<hr>
+<p><img src="index_files/Emergency_20Lobby_1.JPG" alt=""></p>
+<hr>
+<p><img src="index_files/Patient.JPG" alt=""></p>
+<hr>
+<ul>
+<li>2018年2月2日<br>16：00 由 急诊门诊 转入<font color="red"><strong>NICU(Nerve Intensive Care Unit)神经科深切治疗病房</strong></font></li>
+</ul>
+<hr>
+<p><img src="index_files/Vessel.JPG" alt=""></p>
+<hr>
+<ul>
+<li>2018年2月4日<br>16：00 手术开始<br>17：20 手术结束<br>17：50 患者清醒<br>18：10 由 手术室 转入 NICU病房</li>
+</ul>
+<p>术后分析<br>主治医师(李志清教授)分析视频</p>
+<hr>
+<video src="https://www.bilibili.com/video/av19138755/index_1.html" type="video/mp4" controls="controls" width="100%" height="100%"><br></video>
+
+<hr>
+<video src="https://www.bilibili.com/video/av19138755/index_2.html" type="video/mp4" controls="controls" width="100%" height="100%"><br></video>
+
+<hr>
+<p>后续Waiting……</p>
+]]></content>
     
     <summary type="html">
     
+      &lt;font size=&quot;3&quot;&gt;&lt;strong&gt;&lt;center&gt;摘要&lt;/center&gt;&lt;/strong&gt;&lt;/font&gt;
+
+
+&lt;p&gt;&lt;strong&gt;&lt;font size=&quot;2&quot;&gt;医院陪护日志&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;
+    
     </summary>
     
+    
+      <category term="手术" scheme="http://gengsinan.com/tags/%E6%89%8B%E6%9C%AF/"/>
+    
+      <category term="护理" scheme="http://gengsinan.com/tags/%E6%8A%A4%E7%90%86/"/>
     
   </entry>
   
@@ -34,7 +83,7 @@
     <link href="http://gengsinan.com/2017/10/24/Shadowsocks_%E4%B8%8E_TCP-bbr_&amp;_%E9%94%90%E9%80%9F_by_Bandwagon/"/>
     <id>http://gengsinan.com/2017/10/24/Shadowsocks_与_TCP-bbr_&amp;_锐速_by_Bandwagon/</id>
     <published>2017-10-24T12:08:51.000Z</published>
-    <updated>2017-10-26T15:37:30.393Z</updated>
+    <updated>2018-02-04T22:04:52.009Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
@@ -116,11 +165,11 @@
   </entry>
   
   <entry>
-    <title>HTML+HTML5 常用标签 和 一些注意事项</title>
+    <title>HTML&amp;HTML5基础</title>
     <link href="http://gengsinan.com/2017/09/04/HTML-HTML5-%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE-%E5%92%8C-%E4%B8%80%E4%BA%9B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
     <id>http://gengsinan.com/2017/09/04/HTML-HTML5-常用标签-和-一些注意事项/</id>
     <published>2017-09-04T10:54:07.000Z</published>
-    <updated>2017-09-08T11:21:09.050Z</updated>
+    <updated>2018-02-04T22:20:32.524Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
@@ -176,7 +225,7 @@
     <link href="http://gengsinan.com/2017/09/02/CSS-CSS3-%E5%B8%B8%E7%94%A8%E6%A0%B7%E5%BC%8F-%E5%A4%8D%E5%90%88%E6%A0%B7%E5%BC%8F-%E5%92%8C-%E4%B8%80%E4%BA%9B%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/"/>
     <id>http://gengsinan.com/2017/09/02/CSS-CSS3-常用样式-复合样式-和-一些注意事项/</id>
     <published>2017-09-02T14:23:18.000Z</published>
-    <updated>2017-09-08T11:20:11.026Z</updated>
+    <updated>2018-02-04T22:07:11.991Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
@@ -268,7 +317,7 @@
     <link href="http://gengsinan.com/2017/08/31/%E5%89%8D%E7%AB%AF%E4%BD%9C%E4%B8%9A/"/>
     <id>http://gengsinan.com/2017/08/31/前端作业/</id>
     <published>2017-08-31T07:13:04.000Z</published>
-    <updated>2017-09-08T11:20:31.670Z</updated>
+    <updated>2018-02-04T22:05:27.794Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
@@ -319,7 +368,7 @@
     <link href="http://gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/"/>
     <id>http://gengsinan.com/2017/08/31/科学上网之Shadowsocks-Chrome/</id>
     <published>2017-08-31T03:49:48.000Z</published>
-    <updated>2017-10-24T12:25:52.081Z</updated>
+    <updated>2018-02-04T22:05:44.878Z</updated>
     
     <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
 
