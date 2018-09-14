@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>耳南</title>
+  <title>烏昸</title>
   <subtitle>总是要写点东西缅怀自己</subtitle>
   <link href="/atom.xml" rel="self"/>
   
@@ -9,7 +9,7 @@
   <id>http://gengsinan.com/</id>
   
   <author>
-    <name>耳南</name>
+    <name>烏昸</name>
     
   </author>
   
