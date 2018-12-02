@@ -26,12 +26,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">1.8s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-ZAqtdEyD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-srQrNjna" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ZAqtdEyD"),
+            element: document.getElementById("aplayer-srQrNjna"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -52,12 +52,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-qtEwudId" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-tDKWrEht" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-qtEwudId"),
+            element: document.getElementById("aplayer-tDKWrEht"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -79,12 +79,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.5s</font></p>
 </blockquote>
 
-        <div id="aplayer-jIRRZdwn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-mcanMsfP" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-jIRRZdwn"),
+            element: document.getElementById("aplayer-mcanMsfP"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -103,12 +103,12 @@
 
 <hr>
 <h3 id="這裏是BAAM-3D版"><a href="#這裏是BAAM-3D版" class="headerlink" title="這裏是BAAM-3D版"></a>這裏是BAAM-3D版</h3>
-        <div id="aplayer-CkpefMvr" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-tMBjSQon" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-CkpefMvr"),
+            element: document.getElementById("aplayer-tMBjSQon"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -135,12 +135,12 @@
 &lt;p&gt;原曲結尾到第一次上膛音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.8s&lt;/font&gt;&lt;br&gt;第二次上膛音效結束到開槍音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.2s&lt;/font&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&quot;aplayer-ZAqtdEyD&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-srQrNjna&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-ZAqtdEyD&quot;),
+            element: document.getElementById(&quot;aplayer-srQrNjna&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
