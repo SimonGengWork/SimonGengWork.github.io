@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2018-10-19T10:53:53.230Z</updated>
+  <updated>2018-10-20T09:46:36.445Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -16,16 +16,155 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://gengsinan.com/2018/10/19/Noya-BAAM/"/>
-    <id>http://gengsinan.com/2018/10/19/Noya-BAAM/</id>
-    <published>2018-10-19T10:53:53.230Z</published>
-    <updated>2018-10-19T10:53:53.230Z</updated>
+    <title>Noya_BAAM</title>
+    <link href="http://gengsinan.com/2018/10/20/Noya-BAAM/"/>
+    <id>http://gengsinan.com/2018/10/20/Noya-BAAM/</id>
+    <published>2018-10-20T08:09:24.000Z</published>
+    <updated>2018-10-20T09:46:36.445Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="這裏是第一個版本"><a href="#這裏是第一個版本" class="headerlink" title="這裏是第一個版本"></a>這裏是第一個版本</h3><blockquote>
+<p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">1.8s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
+</blockquote>
+
+        <div id="aplayer-ZAqtdEyD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-ZAqtdEyD"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "BAAM1",
+              author: "MOMOLAND",
+              url: "BAAM1.mp3",
+              pic: "/2018/10/20/Noya-BAAM/Noya.JPG",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+<font color="pink"><a href="BAAM1.mp3" title="BAAM1.mp3">煙煙！點擊這裏可以下載BAAM1吼，這個是MP3格式噠</a></font><br><font color="pink"><a href="BAAM1.flac" title="BAAM1.flac">煙煙！點擊這裏可以下載BAAM1吖，這個是FLAC無損格式噠</a></font>
+
+<h2 id=""><a href="#" class="headerlink" title=""></a><a id="more"></a></h2><h3 id="這裏是第二個版本"><a href="#這裏是第二個版本" class="headerlink" title="這裏是第二個版本"></a>這裏是第二個版本</h3><blockquote>
+<p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
+</blockquote>
+
+        <div id="aplayer-qtEwudId" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-qtEwudId"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "BAAM2",
+              author: "MOMOLAND",
+              url: "BAAM2.mp3",
+              pic: "/2018/10/20/Noya-BAAM/Noya1.JPG",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+<font color="pink"><a href="BAAM2.mp3" title="BAAM2.mp3">煙煙！點擊這裏可以下載BAAM2吼，這個是MP3格式噠</a></font><br><font color="pink"><a href="BAAM2.flac" title="BAAM2.flac">煙煙！點擊這裏可以下載BAAM2吖，這個是FLAC無損格式噠</a></font>
+
+<hr>
+<h3 id="這裏是第三個版本"><a href="#這裏是第三個版本" class="headerlink" title="這裏是第三個版本"></a>這裏是第三個版本</h3><blockquote>
+<p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.5s</font></p>
+</blockquote>
+
+        <div id="aplayer-jIRRZdwn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-jIRRZdwn"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "BAAM3",
+              author: "MOMOLAND",
+              url: "BAAM3.mp3",
+              pic: "/2018/10/20/Noya-BAAM/Wudong.JPG",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+<font color="pink"><a href="BAAM3.mp3" title="BAAM3.mp3">煙煙！點擊這裏可以下載BAAM3吼，這個是MP3格式噠</a></font><br><font color="pink"><a href="BAAM3.flac" title="BAAM3.flac">煙煙！點擊這裏可以下載BAAM3吖，這個是FLAC無損格式噠</a></font>
+
+<hr>
+<h3 id="這裏是BAAM-3D版"><a href="#這裏是BAAM-3D版" class="headerlink" title="這裏是BAAM-3D版"></a>這裏是BAAM-3D版</h3>
+        <div id="aplayer-CkpefMvr" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-CkpefMvr"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "BAAM-3D",
+              author: "MOMOLAND",
+              url: "BAAM-3D.mp3",
+              pic: "/2018/10/20/Noya-BAAM/spoon.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+<font color="pink"><a href="BAAM-3D.mp3" title="BAAM-3D.mp3">煙煙！點擊這裏可以下載BAAM-3D吼，這個是MP3格式噠</a></font>
+
+<hr>
+<h3 id="原理圖"><a href="#原理圖" class="headerlink" title="原理圖"></a>原理圖</h3><p><img src="BAAM.jpg" alt=""></p>
+]]></content>
     
     <summary type="html">
     
+      &lt;h3 id=&quot;這裏是第一個版本&quot;&gt;&lt;a href=&quot;#這裏是第一個版本&quot; class=&quot;headerlink&quot; title=&quot;這裏是第一個版本&quot;&gt;&lt;/a&gt;這裏是第一個版本&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;原曲結尾到第一次上膛音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.8s&lt;/font&gt;&lt;br&gt;第二次上膛音效結束到開槍音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.2s&lt;/font&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        &lt;div id=&quot;aplayer-ZAqtdEyD&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+            &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+          var ap = new APlayer({
+            element: document.getElementById(&quot;aplayer-ZAqtdEyD&quot;),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: &quot;BAAM1&quot;,
+              author: &quot;MOMOLAND&quot;,
+              url: &quot;BAAM1.mp3&quot;,
+              pic: &quot;/2018/10/20/Noya-BAAM/Noya.JPG&quot;,
+              lrc: &quot;&quot;
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        &lt;/script&gt;
+&lt;font color=&quot;pink&quot;&gt;&lt;a href=&quot;BAAM1.mp3&quot; title=&quot;BAAM1.mp3&quot;&gt;煙煙！點擊這裏可以下載BAAM1吼，這個是MP3格式噠&lt;/a&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;pink&quot;&gt;&lt;a href=&quot;BAAM1.flac&quot; title=&quot;BAAM1.flac&quot;&gt;煙煙！點擊這裏可以下載BAAM1吖，這個是FLAC無損格式噠&lt;/a&gt;&lt;/font&gt;
+
+&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;
+    
     </summary>
     
+      <category term="Noya" scheme="http://gengsinan.com/categories/Noya/"/>
+    
+    
+      <category term="Noya" scheme="http://gengsinan.com/tags/Noya/"/>
     
   </entry>
   
@@ -36,7 +175,7 @@
     <published>2018-09-14T06:04:26.682Z</published>
     <updated>2018-09-14T06:04:26.680Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <a id="more"></a>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
@@ -64,7 +203,7 @@
     <published>2017-10-24T12:08:51.000Z</published>
     <updated>2018-09-14T07:06:38.254Z</updated>
     
-    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
 
 <p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用<code>Google-TCP-bbr</code>或<code>锐速</code>两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
 <a id="more"></a>
@@ -146,7 +285,7 @@
     <published>2017-09-04T10:54:07.000Z</published>
     <updated>2018-09-14T07:10:08.652Z</updated>
     
-    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
 
 <p>本篇文章记录了一些简单的HTML+HTML5 常用标签</p>
 <a id="more"></a>
@@ -198,7 +337,7 @@
     <published>2017-09-02T14:23:18.000Z</published>
     <updated>2018-09-14T07:09:38.669Z</updated>
     
-    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
 
 <p>本篇文章记录了一些简单的CSS+CSS3 常用样式+复合样式</p>
 <a id="more"></a>
@@ -286,7 +425,7 @@
     <published>2017-08-31T07:13:04.000Z</published>
     <updated>2018-09-14T07:07:23.033Z</updated>
     
-    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
 
 <p>本篇文章为我的作业展示区</p>
 <p>作业来源</p>
@@ -335,7 +474,7 @@
     <published>2017-08-31T03:49:48.000Z</published>
     <updated>2018-09-14T07:07:38.782Z</updated>
     
-    <content type="html"><![CDATA[<font size="3"><strong><center>摘要</center></strong></font>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
 
 <ul>
 <li><strong><font size="2">本篇文章解决</font></strong></li>
