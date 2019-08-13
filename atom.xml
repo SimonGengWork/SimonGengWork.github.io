@@ -26,12 +26,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">1.8s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-kpSFWpBW" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-OKTggFSx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-kpSFWpBW"),
+            element: document.getElementById("aplayer-OKTggFSx"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -52,12 +52,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-gWhowVfi" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-xuFpODTS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-gWhowVfi"),
+            element: document.getElementById("aplayer-xuFpODTS"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -79,12 +79,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.5s</font></p>
 </blockquote>
 
-        <div id="aplayer-wEVtAmDz" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-NcEfWXAn" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-wEVtAmDz"),
+            element: document.getElementById("aplayer-NcEfWXAn"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -103,12 +103,12 @@
 
 <hr>
 <h3 id="這裏是BAAM-3D版"><a href="#這裏是BAAM-3D版" class="headerlink" title="這裏是BAAM-3D版"></a>這裏是BAAM-3D版</h3>
-        <div id="aplayer-nfHxqNnw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-NyPGDWne" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-nfHxqNnw"),
+            element: document.getElementById("aplayer-NyPGDWne"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -135,12 +135,12 @@
 &lt;p&gt;原曲結尾到第一次上膛音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.8s&lt;/font&gt;&lt;br&gt;第二次上膛音效結束到開槍音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.2s&lt;/font&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&quot;aplayer-kpSFWpBW&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-OKTggFSx&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-kpSFWpBW&quot;),
+            element: document.getElementById(&quot;aplayer-OKTggFSx&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -193,88 +193,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Shadowsocks 与 TCP-bbr &amp; 锐速 by Bandwagon</title>
-    <link href="http://gengsinan.com/2017/10/24/Shadowsocks_%E4%B8%8E_TCP-bbr_&amp;_%E9%94%90%E9%80%9F_by_Bandwagon/"/>
-    <id>http://gengsinan.com/2017/10/24/Shadowsocks_与_TCP-bbr_&amp;_锐速_by_Bandwagon/</id>
-    <published>2017-10-24T12:08:51.000Z</published>
-    <updated>2018-09-14T07:06:38.254Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
-
-<p>本篇文章主要记录了我利用<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工(请扶墙访问)</a>的VPS搭建Shadowsocks后，如何利用<code>Google-TCP-bbr</code>或<code>锐速</code>两种工具实现Shadowsocks扶墙速度突破天际的方法</p>
-<a id="more"></a>
-<hr>
-<h3 id="须知"><a href="#须知" class="headerlink" title="须知"></a>须知</h3><p>首先要知道的是，<a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>的VPS常用架构有两种(购买VPS服务器时可以选择)：<br><a href="https://zh.wikipedia.org/wiki/%E5%9F%BA%E4%BA%8E%E5%86%85%E6%A0%B8%E7%9A%84%E8%99%9A%E6%8B%9F%E6%9C%BA" target="_blank" rel="external">KVM (Kernel-based Virtual Machine)</a><font color="red">   建议选择KVM架构</font><br><a href="https://zh.wikipedia.org/wiki/OpenVZ" target="_blank" rel="external">OpenVZ</a><br>两者都可以安装BBR，但是OpenVZ不可以安装锐速</p>
-<p>测速环境：联通Download:50M  Upload：4M<br>U2B 4K无压力，玩个吃鸡游戏也蛮不错<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/Speedtest.jpg" alt=""><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/feedbackSpeed.jpg" alt=""><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/U2Bspeed.png" alt=""></p>
-<h3 id="Shadowsocks-ShadowsocksR-bbr篇"><a href="#Shadowsocks-ShadowsocksR-bbr篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + bbr篇"></a>Shadowsocks(ShadowsocksR) + bbr篇</h3><p><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a>实现<code>Sahdowsocks + bbr</code>有很多种方法，下面介绍两种 :</p>
-<h4 id="1-图形界面版"><a href="#1-图形界面版" class="headerlink" title="1. 图形界面版"></a>1. 图形界面版</h4><blockquote>
-<p>   使用购买后的IP及密码登陆<a href="https://kiwivm.64clouds.com/main.php" target="_blank" rel="external">Kiwivm面板</a></p>
-<blockquote>
-<p>  给你的VPS做个系统<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/1.jpg" alt=""><br>点击Main controls(主控台)界面，时不时刷新下，如果系统做好了会出现如下界面<font color="red">(推荐CentOS-6-x86_64)</font><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/2.jpg" alt=""><br>然后可以选择Shadowsocks Server(简称SS)也可以选择ShadowsocksR Server(简称SSR <font color="red">推荐这个</font>)；SSR对比SS可以混淆协议，两者安装方法基本一致<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/3.jpg" alt=""><br>安装时间10几秒，成功后会出现Completing字样,然后点击Go back返回到ShadowsocksR Server中(截图搞丢了)，安装好的界面是这样的(我的是SS的界面)<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/4.jpg" alt=""></p>
-</blockquote>
-</blockquote>
-<p>上面设置的是Shadowsocks服务端</p>
-<p><a href="https://www.gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/" target="_blank" rel="external">Shadowsocks客户端教程传送门(含Windows、MacOS、Linux)</a></p>
-<h4 id="2-命令行版"><a href="#2-命令行版" class="headerlink" title="2. 命令行版"></a>2. 命令行版</h4><blockquote>
-<p> 安装CentOS-6-x86_64系统(方法如上)<br>然后用Bash工具(MacOS：Iterm2  Windows:Xshell或Git Bash等)使用SSH命令远程连接<br><code>ssh 用户名@IP -p 端口</code><br>输入密码(建议用root账户)<br>查看系统内核<br><code>uname -r</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/5.jpg" alt=""><br>如果没有wget工具可以先安装<br><code>yum -y install wget</code><br>将内核升级到4.9.0执行下面一行命令：<br><code>wget -O- <a href="https://zhujiwiki.com/usr/uploads/2016/12/install_bbr_centos.sh" target="_blank" rel="external">https://zhujiwiki.com/usr/uploads/2016/12/install_bbr_centos.sh</a> | bash</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/6.jpg" alt=""><br>完成后执行重启VPS：<br><code>reboot</code><br>然后重连SSH<br><code>ssh 用户名@IP -p 端口</code><br>输入密码<br>重新登陆执行查看内核：<br><code>uname -r</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/7.jpg" alt=""><br>内核已经升级成4.9.0版本,接着执行：<br><code>sysctl -a|grep congestion_control</code><br>如果输出选项中有<br><code>net.ipv4.tcp_congestion_control = bbr</code><br>表示安装成功，其他选项可忽略。<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/8.jpg" alt=""><br>如果输出结果net.ipv4.tcp_congestion_control = 结果不是bbr 则需要手动开启bbr模式(以下命令需一行行执行)：<br><strong>执行前注意去掉 “ 号前的 \ 符号</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">echo \&quot;net.core.default_qdisc=fq\&quot; &gt;&gt; /etc/sysctl.conf</div><div class="line">echo \&quot;net.ipv4.tcp_congestion_control=bbr\&quot; &gt;&gt; /etc/sysctl.conf</div><div class="line">sysctl -p</div><div class="line">sysctl net.ipv4.tcp_available_congestion_control</div></pre></td></tr></table></figure></p>
-<p>执行完成后再次执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sysctl -a|grep congestion_control</div></pre></td></tr></table></figure></p>
-<p>就会看到bbr模式已经开启。</p>
-<p>最后回到界面安装SS服务端或SSR服务端即可</p>
-</blockquote>
-<h3 id="Shadowsocks-ShadowsocksR-锐速篇"><a href="#Shadowsocks-ShadowsocksR-锐速篇" class="headerlink" title="Shadowsocks(ShadowsocksR) + 锐速篇"></a>Shadowsocks(ShadowsocksR) + 锐速篇</h3><blockquote>
-<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>环境:<br>CentOS 6支持安装锐速的内核：2.6.32-504.3.3.el6.x86_64<br>CentOS 7支持安装锐速的内核：3.10.0-327.el7.x86_64</p>
-<h4 id="安装CentOS-6-x86-64系统-方法如上"><a href="#安装CentOS-6-x86-64系统-方法如上" class="headerlink" title="安装CentOS-6-x86_64系统(方法如上)"></a>安装CentOS-6-x86_64系统(方法如上)</h4><ol>
-<li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">uname -r #查看当前内核版本 </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-firmware-2.6.32-504.3.3.el6.noarch.rpm </div><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-2.6.32-504.3.3.el6.x86_64.rpm --force</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/9.png" alt=""></p>
-<ol>
-<li>执行命令“rpm -qa | grep kernel”，查看内核是否安装成功。如果显示你安装的内核版本，表示安装成功。<br><code>rpm -qa | grep kernel</code><br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/10.png" alt=""></li>
-<li>重启VPS，查看内核是否修改成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">reboot #重启VPS</div><div class="line">uname -r #当前使用内核版本</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/11.png" alt=""></p>
-<h4 id="安装CentOS-7-x86-64系统-方法如上"><a href="#安装CentOS-7-x86-64系统-方法如上" class="headerlink" title="安装CentOS-7-x86_64系统(方法如上)"></a>安装CentOS-7-x86_64系统(方法如上)</h4><ol>
-<li>首先使用下面命令下载及更换内核，<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">rpm -ivh http://xz.wn789.com/CentOSkernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force</div><div class="line">rpm -qa | grep kernel #查看内核是否安装成功</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/12.png" alt=""></p>
-<ol>
-<li>重启VPS，查看内核是否修改成功。<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">reboot #重启VPS</div><div class="line">uname -r #当前使用内核版本</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/13.png" alt=""><br>3.目前Centos 7小问题比较多，锐速针对centos 7的版版本较少。推荐在CentOS 6.中安装。</p>
-<h4 id="锐速破解版安装"><a href="#锐速破解版安装" class="headerlink" title="锐速破解版安装"></a>锐速破解版安装</h4><ul>
-<li>一键安装<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">wget --no-check-certificate -qO /tmp/appex.sh &quot;https://raw.githubusercontent.com/0oVicero0/serverSpeeder_Install/master/appex.sh&quot; &amp;&amp; bash /tmp/appex.sh &apos;install&apos;</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p><img src="images/TCP-bbr &amp; 锐速 by Bandwagon/14.png" alt=""></p>
-<ul>
-<li>安装过程很简单，如果你的VPS内核支持安装，根本无需你手动操作，直接一键完成。<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/15.png" alt=""></li>
-<li>如果你VPS内核没有找到匹配的锐速版本，会自动提示选择接近版本。<br><img src="/images/TCP-bbr &amp; 锐速 by Bandwagon/16.png" alt=""></li>
-<li>锐速serverspeeder常用命令：<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">service serverSpeeder start #启动</div><div class="line">service serverSpeeder stop #停止</div><div class="line">service serverSpeeder reload #重新加载配置</div><div class="line">service serverSpeeder restart #重启</div><div class="line">service serverSpeeder status #状态</div><div class="line">service serverSpeeder stats #统计</div><div class="line">service serverSpeeder renewLic #更新许可文件</div><div class="line">service serverSpeeder update #更新</div><div class="line">chattr -i /serverspeeder/etc/apx* &amp;&amp; /serverspeeder/bin/serverSpeeder.sh uninstall -f #卸载</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<p>最后安装Shadowsocks server或ShadowsocksR server，尽情的扶墙吧</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;font size=&quot;3&quot;&gt;&lt;strong&gt;&lt;center&gt;摘要&lt;/center&gt;&lt;/strong&gt;&lt;/font&gt;
-
-&lt;p&gt;本篇文章主要记录了我利用&lt;a href=&quot;https://bandwagonhost.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;搬瓦工(请扶墙访问)&lt;/a&gt;的VPS搭建Shadowsocks后，如何利用&lt;code&gt;Google-TCP-bbr&lt;/code&gt;或&lt;code&gt;锐速&lt;/code&gt;两种工具实现Shadowsocks扶墙速度突破天际的方法&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="科学上网" scheme="http://gengsinan.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    
-      <category term="科学上网" scheme="http://gengsinan.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
@@ -464,114 +382,6 @@
     
     
       <category term="作業" scheme="http://gengsinan.com/tags/%E4%BD%9C%E6%A5%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>科学上网之VPS(免费)+Shadowsocks+Chrome</title>
-    <link href="http://gengsinan.com/2017/08/31/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E4%B9%8BShadowsocks-Chrome/"/>
-    <id>http://gengsinan.com/2017/08/31/科学上网之Shadowsocks-Chrome/</id>
-    <published>2017-08-31T03:49:48.000Z</published>
-    <updated>2018-09-14T07:07:38.782Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><font size="3"><strong><center>摘要</center></strong></font>
-
-<ul>
-<li><strong><font size="2">本篇文章解决</font></strong></li>
-</ul>
-<blockquote>
-<p><strong>Shadowsocks是什么？(Shadowsocks下文会简称SS)</strong></p>
-</blockquote>
-<hr>
-<blockquote>
-<p><strong>SS+Chrome访问”Google”</strong></p>
-</blockquote>
-<hr>
-<blockquote>
-<p><strong>如何访问不存在的网站</strong></p>
-</blockquote>
-<a id="more"></a>
-<hr>
-<h3 id="Chrome"><a href="#Chrome" class="headerlink" title="Chrome"></a>Chrome</h3><h4 id="Chrome浏览器-下载及安装"><a href="#Chrome浏览器-下载及安装" class="headerlink" title="Chrome浏览器 下载及安装"></a>Chrome浏览器 下载及安装</h4><p><a href="https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&amp;gclid=CjwKCAjwxJnNBRAMEiwA8X_-QWxT_16TiN-IEpaxvOS_P8ujhOfXu9f-ci4tNEQRkjbLqlVJFCVXKhoCAIYQAvD_BwE" target="_blank" rel="external">Chrome 全平台下载地址</a><br>找到适合自己系统的Chrome选择下载<br>额，好像被墙了，下面给两个网盘地址<br><a href="https://pan.baidu.com/s/1pKNH9bH" target="_blank" rel="external">Chrome Win7 Win8 Win10</a><br>密码：avrd<br><a href="https://pan.baidu.com/s/1jIik3cy" target="_blank" rel="external">Chrome MacOs</a><br>密码：6ttc</p>
-<hr>
-<h3 id="Shadowsocks"><a href="#Shadowsocks" class="headerlink" title="Shadowsocks"></a>Shadowsocks</h3><h4 id="Shadowsocks-是什么？-Shadowsocks下文会简称SS"><a href="#Shadowsocks-是什么？-Shadowsocks下文会简称SS" class="headerlink" title="Shadowsocks 是什么？(Shadowsocks下文会简称SS)"></a>Shadowsocks 是什么？(Shadowsocks下文会简称SS)</h4><p><a href="https://zh.wikipedia.org/wiki/Shadowsocks" target="_blank" rel="external">摘自维基百科</a></p>
-<blockquote>
-<p>shadowsocks是一种基于Socks5代理方式的网络数据加密传输包，并采用Apache许可证、GPL、MIT许可证等多种自由软件许可协议开放源代码。shadowsocks分为服务器端和客户端，在使用之前，需要先将服务器端部署到服务器上面，然后通过客户端连接并创建本地代理。目前包使用Python、C、C++、C#、Go语言等编程语言开发。</p>
-</blockquote>
-<p>↑ 不用去理解，只需要记住</p>
-<ol>
-<li>SS 这个软件是免费的,作者<em> Clowwindy </em>早已在<a href="https://www.github.com" target="_blank" rel="external">Github</a>开源(不要相信任何收费谣言)</li>
-<li>下载了 SS 后，并不能直接链接<a href="https://www.google.com.hk/?gws_rd=ssl" target="_blank" rel="external">Google</a>。还需要有一个外部服务器的<code>IP</code><code>端口</code><code>密码</code><code>加密方式</code>这4项数据，用来配置(添加到)你的 SS 软件中。如：<br><img src="/images/科学上网/ShadowsocksDeploy.jpg" alt="SS 配置"></li>
-</ol>
-<hr>
-<h4 id="Shadowsocks-下载-免安装"><a href="#Shadowsocks-下载-免安装" class="headerlink" title="Shadowsocks 下载(免安装)"></a>Shadowsocks 下载(免安装)</h4><p><a href="https://github.com/shadowsocks/shadowsocks-windows/releases" target="_blank" rel="external">Shadowsocks Win7 Win8 Win10下载地址</a><br>找到</p>
-<blockquote>
-<p>Download<br>Shadowsocks-版本号-.zip</p>
-</blockquote>
-<p>点击下载(随便下载到哪里都可以：桌面、C盘、D盘、E盘…….)<br>新建一个叫<code>Shadowsocks</code>的文件夹(名字可以随便起)，把下载好的<code>Shadowsocks.exe</code>放进去</p>
-<p><code>Shadowsocks.exe</code>是不用安装的，双击后即可看到其界面</p>
-<p><a href="https://github.com/shadowsocks/ShadowsocksX-NG/releases/" target="_blank" rel="external">Shadowsocks MacOs下载地址</a><br>找到</p>
-<blockquote>
-<p>Download<br>ShadowsocksX-NG-版本号-zip</p>
-</blockquote>
-<p>点击下载<br>然后解压文件，找到<code>__MACOSX</code>文件夹中的<code>ShadowsocksX-NG.app</code>，拉到你的Mac的<code>Application</code>中，最后你将会在Mac的 <code>Launchpad</code>中找到</p>
-<p><a href="#">Shadowsocks Linux下载地址</a><br>Linux的大佬，想必可以忽视这篇文章吧</p>
-<hr>
-<h4 id="Shadowsocks-配置（Windows为例）"><a href="#Shadowsocks-配置（Windows为例）" class="headerlink" title="Shadowsocks 配置（Windows为例）"></a>Shadowsocks 配置（Windows为例）</h4><p>提供一个注册就可以免费试用50M流量的服务商（注册不限次数）<br><a href="http://su.mljjlt.cn/" target="_blank" rel="external">速飞跃</a><br>点击</p>
-<blockquote>
-<p>包年包月用户</p>
-</blockquote>
-<p>然后注册(邮箱什么的随便写写，符合邮箱格式就可以了)</p>
-<p>第一步：注册完毕后进入<code>用户界面</code><br>点击<code>产品服务</code>→<code>购买服务</code>→<code>测试账号*免费使用</code><br>→<code>立即订购</code>→<code>结账</code>→<code>完成订购</code></p>
-<p>第二步：然后回到<code>产品服务</code>→<code>我的服务</code>→<code>管理产品</code></p>
-<p>第三步：双击启动<code>Shadowsocks.exe</code>,依次把刚刚注册的免费50M的服务器配置添到Shadowsocks中。<br>数据对照<br><code>链接地址</code>→<code>服务器地址</code><br><code>端口编号</code>→<code>服务器端口</code><br><code>连接密码</code>→<code>密码</code><br><code>加密方式</code>→<code>加密</code><br><code>备注</code>随便写，可以理解给你的服务器起个名字<br><code>超时</code>不用管<br><code>代理端口</code>为：1080<br>最后点击<code>确定</code></p>
-<p>然后Shadowsocks会最小化变成一个<strong>小飞机</strong>的图标</p>
-<ol>
-<li>右键<strong>小飞机</strong>→<code>服务器</code>→选择你刚刚配置好的服务器的备注名</li>
-<li>右键<strong>小飞机</strong>→<code>系统代理模式</code>→选择<code>PAC模式</code></li>
-<li>右键<strong>小飞机</strong>→<code>启用系统代理</code></li>
-</ol>
-<blockquote>
-<font color="red" size="6">恭喜完成</font>
-
-</blockquote>
-<hr>
-<h3 id="SS-Chrome-访问Google"><a href="#SS-Chrome-访问Google" class="headerlink" title="SS+Chrome 访问Google"></a>SS+Chrome 访问Google</h3><p>打开你的Chrome浏览器，输入网址<code>google.com.hk</code>试试看</p>
-<hr>
-<h3 id="访问被墙的网站"><a href="#访问被墙的网站" class="headerlink" title="访问被墙的网站"></a>访问被墙的网站</h3><ol>
-<li>右键<strong>小飞机</strong>→<code>系统代理模式</code>→选择<code>全局模式</code></li>
-<li>然后再用你的Chrome浏览器刷新试试看</li>
-</ol>
-<p><code>PAC模式</code>PAC配置文件中的IP、网站地址通过代理服务器流量，未配置的走本地流量<br><code>全局模式</code>所有IP、网站地址均通过代理服务器流量</p>
-<hr>
-<h3 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h3><p>如果想长时间且稳定的使用代理服务器（VPS），那么天下没有免费的午餐，且免费的总是不长久的，这里UP推荐性价比最高的（需要开启你的小飞机才可以浏览）<strong><a href="https://bandwagonhost.com/" target="_blank" rel="external">搬瓦工</a></strong>，一年不到20$（不到140元RMB）的费用，就可以享受到浏览Youtube 4K视频畅通无阻的服务。关于<strong>搬瓦工</strong>,度娘上的中文教程也是非常多，如果有需要，UP也会写一遍关于<code>如何购买、使用搬瓦工搭建VPS+SS+Chrome科学上网</code></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;font size=&quot;3&quot;&gt;&lt;strong&gt;&lt;center&gt;摘要&lt;/center&gt;&lt;/strong&gt;&lt;/font&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;&lt;font size=&quot;2&quot;&gt;本篇文章解决&lt;/font&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Shadowsocks是什么？(Shadowsocks下文会简称SS)&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;SS+Chrome访问”Google”&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;如何访问不存在的网站&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="科学上网" scheme="http://gengsinan.com/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    
-    
-      <category term="科学上网" scheme="http://gengsinan.com/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
     
   </entry>
   
