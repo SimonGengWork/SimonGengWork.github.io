@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2018-10-20T09:46:36.445Z</updated>
+  <updated>2019-10-14T02:48:38.439Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -14,6 +14,73 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://gengsinan.com/2019/10/14/20190908/"/>
+    <id>http://gengsinan.com/2019/10/14/20190908/</id>
+    <published>2019-10-14T02:48:38.441Z</published>
+    <updated>2019-10-14T02:48:38.439Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2019年9月8日，初見</p>
+<a id="more"></a>
+<hr>
+<blockquote>
+<p>   回家</p>
+</blockquote>
+<p>2019年9月8日</p>
+<p>清晨</p>
+<p>沈阳</p>
+<p>印象里刚下飞机，还没来得及适应家乡的宁静，便被体内的多巴胺激活，打开微信，找到沈阳马拉松公众号，我来了。</p>
+<hr>
+<blockquote>
+<p>   沈马</p>
+</blockquote>
+<p>7：00 a.m.</p>
+<p>抵达奥体中心地铁站</p>
+<p>蓝天白云，空气中没有北京那种朝日的喧嚣，东北的初秋，既暖又清爽</p>
+<p>带着我的Eos RP和一只小狗头（50mm)，找到会场人多的位置，拍拍走走，偶尔会偷瞄性感火辣的女生，更多是游走在奇装异服，和各个跑团中，寻找下手的机会——咔！Take a photo.</p>
+<hr>
+<blockquote>
+<p>   开跑</p>
+</blockquote>
+<p>沈马的报名已经截止，原本想浑水摸鱼的我，似乎只能做一名积极参与的旁观者。</p>
+<p>找到了</p>
+<ul>
+<li><p>选手们会路过的地儿</p>
+</li>
+<li><p>一个凉快的地方</p>
+</li>
+</ul>
+<p>设置好高速连拍</p>
+<p>站好，然后瘫在栏杆上</p>
+<p>等待着一波长腿欧巴们迎面而来</p>
+<hr>
+<blockquote>
+<p>   初遇</p>
+</blockquote>
+<p>鬼知道未来会发生什么</p>
+<p>一只抱着Hello Kitty的SLE女孩？</p>
+<p>一场紧张刺激的”领证游戏“</p>
+<p>一场与令人绝望的病魔斗智斗勇</p>
+<p>不知道，管他呢</p>
+<p>9102沈马历史使命已经结束</p>
+<p>河豚    你好</p>
+<p>面条    来了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2019年9月8日，初見&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Diary" scheme="http://gengsinan.com/categories/Diary/"/>
+    
+    
+      <category term="Diary" scheme="http://gengsinan.com/tags/Diary/"/>
+    
+  </entry>
   
   <entry>
     <title>Noya_BAAM</title>
@@ -26,12 +93,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">1.8s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-FkLndDeh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-PbETwNNG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-FkLndDeh"),
+            element: document.getElementById("aplayer-PbETwNNG"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -52,12 +119,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-GZOVgEFY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-EHggVbgy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-GZOVgEFY"),
+            element: document.getElementById("aplayer-EHggVbgy"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -79,12 +146,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.5s</font></p>
 </blockquote>
 
-        <div id="aplayer-IYjXUWli" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-YKhzVJzy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-IYjXUWli"),
+            element: document.getElementById("aplayer-YKhzVJzy"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -103,12 +170,12 @@
 
 <hr>
 <h3 id="這裏是BAAM-3D版"><a href="#這裏是BAAM-3D版" class="headerlink" title="這裏是BAAM-3D版"></a>這裏是BAAM-3D版</h3>
-        <div id="aplayer-DcnrlDsO" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-FttXwvSX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-DcnrlDsO"),
+            element: document.getElementById("aplayer-FttXwvSX"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -135,12 +202,12 @@
 &lt;p&gt;原曲結尾到第一次上膛音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.8s&lt;/font&gt;&lt;br&gt;第二次上膛音效結束到開槍音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.2s&lt;/font&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&quot;aplayer-FkLndDeh&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-PbETwNNG&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-FkLndDeh&quot;),
+            element: document.getElementById(&quot;aplayer-PbETwNNG&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
