@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://gengsinan.com/"/>
-  <updated>2019-10-14T02:48:38.439Z</updated>
+  <updated>2019-10-14T02:50:11.258Z</updated>
   <id>http://gengsinan.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>20190908</title>
     <link href="http://gengsinan.com/2019/10/14/20190908/"/>
     <id>http://gengsinan.com/2019/10/14/20190908/</id>
-    <published>2019-10-14T02:48:38.441Z</published>
-    <updated>2019-10-14T02:48:38.439Z</updated>
+    <published>2019-10-14T02:50:11.260Z</published>
+    <updated>2019-10-14T02:50:11.258Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="/assets/css/APlayer.min.css"><script src="/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>2019年9月8日，初見</p>
 <a id="more"></a>
@@ -93,12 +93,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">1.8s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-PbETwNNG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-tfNWTTKY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-PbETwNNG"),
+            element: document.getElementById("aplayer-tfNWTTKY"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -119,12 +119,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.2s</font></p>
 </blockquote>
 
-        <div id="aplayer-EHggVbgy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-ldfZzoZN" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-EHggVbgy"),
+            element: document.getElementById("aplayer-ldfZzoZN"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -146,12 +146,12 @@
 <p>原曲結尾到第一次上膛音效時間間隔為：<font color="red">3s</font><br>第二次上膛音效結束到開槍音效時間間隔為：<font color="red">1.5s</font></p>
 </blockquote>
 
-        <div id="aplayer-YKhzVJzy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-ryxvNAKu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-YKhzVJzy"),
+            element: document.getElementById("aplayer-ryxvNAKu"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -170,12 +170,12 @@
 
 <hr>
 <h3 id="這裏是BAAM-3D版"><a href="#這裏是BAAM-3D版" class="headerlink" title="這裏是BAAM-3D版"></a>這裏是BAAM-3D版</h3>
-        <div id="aplayer-FttXwvSX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-oPcSsYil" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-FttXwvSX"),
+            element: document.getElementById("aplayer-oPcSsYil"),
             narrow: false,
             autoplay: false,
             showlrc: false,
@@ -202,12 +202,12 @@
 &lt;p&gt;原曲結尾到第一次上膛音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.8s&lt;/font&gt;&lt;br&gt;第二次上膛音效結束到開槍音效時間間隔為：&lt;font color=&quot;red&quot;&gt;1.2s&lt;/font&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-        &lt;div id=&quot;aplayer-PbETwNNG&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
+        &lt;div id=&quot;aplayer-tfNWTTKY&quot; class=&quot;aplayer aplayer-tag-marker&quot; style=&quot;margin-bottom: 20px;&quot;&gt;
             &lt;pre class=&quot;aplayer-lrc-content&quot;&gt;&lt;/pre&gt;
         &lt;/div&gt;
         &lt;script&gt;
           var ap = new APlayer({
-            element: document.getElementById(&quot;aplayer-PbETwNNG&quot;),
+            element: document.getElementById(&quot;aplayer-tfNWTTKY&quot;),
             narrow: false,
             autoplay: false,
             showlrc: false,
